@@ -1,0 +1,21 @@
+{
+  "navbar": {
+    "brand": "Site Senpai",
+    "about": "À propos",
+    "instagram": "Instagram",
+    "tiktok": "TikTok"
+  },
+  "hero": {
+    "title": "Bienvenue sur la page d'accueil!",
+    "subtitle": "Ceci est la version française de la section héros"
+  },
+  "about": {
+    "title": "Page À propos"
+  },
+  "instagram": {
+    "title": "Page Instagram"
+  },
+  "tiktok": {
+    "title": "Page TikTok"
+  }
+} 

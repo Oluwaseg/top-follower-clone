@@ -1,0 +1,21 @@
+{
+  "navbar": {
+    "brand": "Senpai Site",
+    "about": "About",
+    "instagram": "Instagram",
+    "tiktok": "TikTok"
+  },
+  "hero": {
+    "title": "Welcome to the landing page!",
+    "subtitle": "This is the English version of the hero section"
+  },
+  "about": {
+    "title": "About Page"
+  },
+  "instagram": {
+    "title": "Instagram Page"
+  },
+  "tiktok": {
+    "title": "TikTok Page"
+  }
+} 
