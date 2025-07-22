@@ -1,0 +1,125 @@
+{
+  "instagram": {
+    "name": "Instagram",
+    "icon": "https://utfs.io/f/6320f2c2-6253-42be-9746-8ecc97766e5d-nyy399.svg",
+    "gradientFrom": "from-orange-50",
+    "gradientTo": "to-[#F7F7F7]",
+    "services": [
+      {
+        "name": "Italian Instagram Followers 🇮🇹",
+        "price": "€5.79",
+        "href": "/instagram-followers?premium=true",
+        "icon": "user",
+        "bgColor": "bg-orange-500"
+      },
+      {
+        "name": "Instagram Followers",
+        "price": "€3.49",
+        "href": "/instagram-followers",
+        "icon": "user",
+        "bgColor": "bg-orange-500"
+      },
+      {
+        "name": "Like Instagram",
+        "price": "€2.49",
+        "href": "/instagram-likes",
+        "icon": "heart",
+        "bgColor": "bg-orange-500"
+      },
+      {
+        "name": "Instagram Views",
+        "price": "€2.39",
+        "href": "/instagram-views",
+        "icon": "play",
+        "bgColor": "bg-orange-500"
+      }
+    ]
+  },
+  "tiktok": {
+    "name": "TikTok",
+    "icon": "https://utfs.io/f/a143dfb8-76fb-4afa-b410-9b3f9d96435d-hlrxdj.svg",
+    "gradientFrom": "from-violet-50",
+    "gradientTo": "to-[#F7F7F7]",
+    "services": [
+      {
+        "name": "Italian TikTok Followers 🇮🇹",
+        "price": "€4.49",
+        "href": "/tiktok-followers?premium=true",
+        "icon": "user",
+        "bgColor": "bg-purple-600"
+      },
+      {
+        "name": "TikTok Followers",
+        "price": "€3.79",
+        "href": "/tiktok-followers",
+        "icon": "user",
+        "bgColor": "bg-purple-600"
+      },
+      {
+        "name": "Like TikTok",
+        "price": "€2.79",
+        "href": "/tiktok-likes",
+        "icon": "heart",
+        "bgColor": "bg-purple-600"
+      },
+      {
+        "name": "TikTok Views",
+        "price": "€2.99",
+        "href": "/tiktok-views",
+        "icon": "play",
+        "bgColor": "bg-purple-600"
+      }
+    ]
+  },
+  "youtube": {
+    "name": "YouTube",
+    "icon": "https://res.cloudinary.com/dwbbpxfpx/image/upload/f_auto,q_auto/ifs2zmlk4ophu44vbrji",
+    "gradientFrom": "from-red-100",
+    "gradientTo": "to-[#F7F7F7]",
+    "services": [
+      {
+        "name": "YouTube Subscribers",
+        "price": "€5.49",
+        "href": "/youtube-subscribers",
+        "icon": "user",
+        "bgColor": "bg-red-500"
+      },
+      {
+        "name": "YouTube Views",
+        "price": "€4.99",
+        "href": "/youtube-views",
+        "icon": "play",
+        "bgColor": "bg-red-500"
+      },
+      {
+        "name": "I Like YouTube",
+        "price": "€3.49",
+        "href": "/youtube-likes",
+        "icon": "heart",
+        "bgColor": "bg-red-500"
+      }
+    ]
+  },
+  "facebook": {
+    "name": "Facebook",
+    "icon": "https://utfs.io/f/fb19f296-2a9f-4ac9-bf0c-b8a9c076cdea-61homz.svg",
+    "gradientFrom": "from-blue-100",
+    "gradientTo": "to-[#F7F7F7]",
+    "services": [
+      {
+        "name": "Facebook Followers",
+        "price": "€4.49",
+        "href": "/facebook-followers",
+        "icon": "user",
+        "bgColor": "bg-blue-600"
+      },
+      {
+        "name": "FB - Like the Post",
+        "price": "€2.99",
+        "href": "/facebook-post-likes",
+        "icon": "heart",
+        "bgColor": "bg-blue-600"
+      }
+    ]
+  }
+}

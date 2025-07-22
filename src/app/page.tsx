@@ -1,12 +1,13 @@
-"use client";
-import Navbar from "@/components/common/Navbar";
-import Hero from "@/components/common/Hero";
+'use client';
+
+import { TestimonySection } from '@/components/Testimony-section';
 
 export default function LandingPage() {
   return (
-    <>
-      <Navbar />
-      <Hero />
-    </>
+    <main className=''>
+      {/* <Navbar />
+      <Hero /> */}
+      <TestimonySection />
+    </main>
   );
 }

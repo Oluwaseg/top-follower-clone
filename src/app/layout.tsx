@@ -1,3 +1,6 @@
+import { Footer } from '@/components/common/Footer';
+import Header from '@/components/common/Header';
+import { FixedBottomCTA } from '@/components/fixed-bottom-cta';
 import type { Metadata } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
 import { getLocale } from 'next-intl/server';
@@ -29,9 +32,14 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} font-sans min-h-screen`}
+        className={`relative flex flex-col ${geistSans.variable} ${geistMono.variable} font-sans min-h-screen`}
       >
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider>
+          <Header />
+          {children}
+          <Footer />
+          <FixedBottomCTA />
+        </NextIntlClientProvider>
       </body>
     </html>
   );
