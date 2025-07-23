@@ -8,6 +8,9 @@ import { useState } from 'react';
 
 import { LiveDeliveryTicker } from '@/components/shared/live-delivery-ticker';
 import Image from 'next/image';
+import { TestimonySection } from '../Testimony-section';
+import { FAQSection } from '../faq-section';
+import { WhyUsSection } from '../why-us-section';
 
 interface Package {
   amount: number;
@@ -389,6 +392,9 @@ export function ServicePage({
           </div>
         </div>
       </div>
+      <WhyUsSection />
+      <FAQSection />
+      <TestimonySection />
     </div>
   );
 }
