@@ -3,7 +3,7 @@ import Image from 'next/image';
 
 export function TestimonySection() {
   return (
-    <section className='pt-10 pb-16'>
+    <section className='px-10 py-16'>
       <div className='container'>
         <div className='shadow-xl rounded-3xl bg-gradient-to-r from-orange-400 to-pink-500 px-6 pt-12 pb-12 sm:px-14 sm:pt-16 lg:py-16 lg:pr-0 xl:py-20 xl:px-20 md:grid md:grid-cols-2'>
           <div>

@@ -1,6 +1,5 @@
 'use client';
 
-import { Banner } from '@/components/shared/Banner';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
@@ -8,7 +7,6 @@ import { ArrowRight, Check } from 'lucide-react';
 import { useState } from 'react';
 
 import { LiveDeliveryTicker } from '@/components/shared/live-delivery-ticker';
-import { NewNavBar } from '@/components/shared/NewNavBar';
 import Image from 'next/image';
 
 interface Package {
@@ -112,9 +110,6 @@ export function ServicePage({
 
   return (
     <div className='min-h-screen bg-gray-50'>
-      <Banner />
-      <NewNavBar />
-
       {/* Hero Section */}
       <div className='flex justify-center px-6 py-10 relative'>
         {/* Background Gradient */}
