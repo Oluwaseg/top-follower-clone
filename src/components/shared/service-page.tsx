@@ -10,6 +10,7 @@ import { LiveDeliveryTicker } from '@/components/shared/live-delivery-ticker';
 import Image from 'next/image';
 import { TestimonySection } from '../Testimony-section';
 import { FAQSection } from '../faq-section';
+import { ReviewBlock } from '../review-block/review-block';
 import { WhyUsSection } from '../why-us-section';
 
 interface Package {
@@ -392,6 +393,7 @@ export function ServicePage({
           </div>
         </div>
       </div>
+      <ReviewBlock />
       <WhyUsSection />
       <FAQSection />
       <TestimonySection />
