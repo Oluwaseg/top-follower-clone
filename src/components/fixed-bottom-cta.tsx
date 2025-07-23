@@ -17,7 +17,6 @@ export function FixedBottomCTA() {
     };
 
     window.addEventListener('scroll', toggleVisibility);
-
     return () => window.removeEventListener('scroll', toggleVisibility);
   }, []);
 
@@ -48,10 +47,10 @@ export function FixedBottomCTA() {
             <p className='text-center mt-1 text-sm hidden'>
               <span className='text-[13px] hidden'>🎉</span>
               The discount expires{' '}
+              <b className='px-[4px] py-[2px] rounded-md bg-[#f5f5f5]'>in</b>
               <b className='px-[4px] py-[2px] rounded-md bg-[#f5f5f5]'>
-                in
+                00:02
               </b>{' '}
-              <b className='px-[4px] py-[2px] rounded-md bg-[#f5f5f5]'>00:02</b>{' '}
               <b className='px-[4px] py-[2px] rounded-md bg-[#f5f5f5]'>:</b>{' '}
               <b className='px-[4px] py-[2px] rounded-md bg-[#f5f5f5]'>47</b>
             </p>

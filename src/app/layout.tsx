@@ -1,10 +1,13 @@
 import { Footer } from '@/components/common/Footer';
 import Header from '@/components/common/Header';
 import { FixedBottomCTA } from '@/components/fixed-bottom-cta';
+import { Button } from '@/components/ui/button';
+import { MessageCircle } from 'lucide-react';
 import type { Metadata } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
 import { getLocale } from 'next-intl/server';
 import { Geist, Geist_Mono } from 'next/font/google';
+import type React from 'react';
 import './globals.css';
 
 const geistSans = Geist({
@@ -39,6 +42,14 @@ export default async function RootLayout({
           {children}
           <Footer />
           <FixedBottomCTA />
+          <div className='fixed bottom-4 right-4 z-[30]'>
+            <Button
+              size='icon'
+              className='bg-orange-500 hover:bg-orange-600 rounded-full shadow-lg w-12 h-12'
+            >
+              <MessageCircle className='w-8 h-8' />
+            </Button>
+          </div>
         </NextIntlClientProvider>
       </body>
     </html>

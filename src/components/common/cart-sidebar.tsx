@@ -7,7 +7,6 @@ import {
   SheetHeader,
   SheetTitle,
 } from '@/components/ui/sheet';
-import { MessageCircle } from 'lucide-react';
 
 interface CartSidebarProps {
   isOpen: boolean;
@@ -36,15 +35,6 @@ export function CartSidebar({ isOpen, onClose }: CartSidebarProps) {
           </p>
           <Button className='bg-orange-500 hover:bg-orange-600'>
             Back to the shop
-          </Button>
-        </div>
-
-        <div className='fixed bottom-4 right-4'>
-          <Button
-            size='icon'
-            className='bg-orange-500 hover:bg-orange-600 rounded-full shadow-lg'
-          >
-            <MessageCircle className='w-6 h-6' />
           </Button>
         </div>
       </SheetContent>
