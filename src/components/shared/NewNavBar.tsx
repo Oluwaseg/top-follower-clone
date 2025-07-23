@@ -6,32 +6,32 @@ import {
   CollapsibleTrigger,
 } from '@/components/ui/collapsible';
 import navigationData from '@/data/navlinks.json';
-import {
-  AlignLeft,
-  ChevronDown,
-  ChevronRight,
-  Heart,
-  Play,
-  ShoppingCart,
-  User,
-  X,
-} from 'lucide-react';
+import { AlignLeft, ChevronDown, ChevronRight, X } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import { CartSidebar } from '../common/cart-sidebar';
-
-const iconMap = {
-  user: User,
-  heart: Heart,
-  play: Play,
-};
 
 export function NewNavBar() {
   const [hoveredItem, setHoveredItem] = useState<string | null>(null);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [cartOpen, setCartOpen] = useState(false);
   const [openSections, setOpenSections] = useState<string[]>([]);
+  const hoverTimeoutRef = useRef<NodeJS.Timeout | null>(null); // Ref to store the timeout ID
+
+  const handleMouseEnter = (key: string) => {
+    if (hoverTimeoutRef.current) {
+      clearTimeout(hoverTimeoutRef.current); // Clear any pending close timeout
+    }
+    setHoveredItem(key);
+  };
+
+  const handleMouseLeave = () => {
+    // Set a timeout to close the dropdown after a short delay
+    hoverTimeoutRef.current = setTimeout(() => {
+      setHoveredItem(null);
+    }, 100); // 100ms delay
+  };
 
   const toggleSection = (section: string) => {
     setOpenSections((prev) =>
@@ -59,40 +59,41 @@ export function NewNavBar() {
                 />
               </Link>
             </div>
-
             {/* Navigation Links + Cart - Right side */}
             <div className='flex items-center space-x-2'>
               {Object.entries(navigationData).map(([key, platform]) => (
                 <div key={key} className='relative'>
                   <button
                     className='inline-flex items-center justify-center whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground bg-inherit h-9 px-3 group text-slate-800 font-medium text-base leading-none rounded-xl'
-                    onMouseEnter={() => setHoveredItem(key)}
-                    onMouseLeave={() => setHoveredItem(null)}
+                    onMouseEnter={() => handleMouseEnter(key)}
+                    onMouseLeave={handleMouseLeave}
                   >
                     {platform.name}
                     <ChevronDown className='relative top-[1px] ml-1 h-3 w-3 transition duration-200 group-data-[state=open]:rotate-180' />
                   </button>
-
                   {hoveredItem === key && (
                     <div
                       className='absolute top-full left-0 mt-1 w-80 bg-white rounded-lg shadow-lg border z-50'
-                      onMouseEnter={() => setHoveredItem(key)}
-                      onMouseLeave={() => setHoveredItem(null)}
+                      onMouseEnter={() => handleMouseEnter(key)} // Keep open if mouse enters dropdown
+                      onMouseLeave={handleMouseLeave} // Close after delay if mouse leaves dropdown
                     >
                       <div className='p-4 space-y-2'>
                         {platform.services.map((service, index) => {
-                          const IconComponent =
-                            iconMap[service.icon as keyof typeof iconMap];
                           return (
                             <Link
                               key={index}
                               href={service.href}
-                              className='flex items-center gap-3 p-3 hover:bg-gray-50 rounded-lg transition-colors'
+                              className='flex items-center gap-3 p-3 hover:bg-gray-50 rounded-lg transition-colors duration-200'
                             >
                               <div
-                                className={`w-8 h-8 ${service.bgColor} rounded-full flex items-center justify-center`}
+                                className={`w-8 h-8 rounded-full flex items-center justify-center`}
                               >
-                                <IconComponent className='w-4 h-4 text-white' />
+                                <Image
+                                  src={service.icon || '/placeholder.svg'}
+                                  alt={service.name}
+                                  width={50}
+                                  height={50}
+                                />
                               </div>
                               <div className='flex-1'>
                                 <div className='font-medium text-sm text-gray-900'>
@@ -110,19 +111,23 @@ export function NewNavBar() {
                   )}
                 </div>
               ))}
-
               <Link href='/contact'>
                 <button className='inline-flex items-center justify-center whitespace-nowrap ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-accent hover:text-accent-foreground bg-inherit h-9 px-3 text-slate-800 font-medium text-base leading-none rounded-xl'>
                   Contacts
                 </button>
               </Link>
-
               <div className='pl-6'>
                 <button
                   onClick={() => setCartOpen(true)}
                   className='w-10 h-10 justify-center items-center flex relative rounded-lg cursor-pointer hover:bg-gray-100 transition'
                 >
-                  <ShoppingCart className='w-[22px] h-[22px] text-slate-800' />
+                  <Image
+                    src='/shop.svg'
+                    alt='Shopping Cart'
+                    width={22}
+                    height={22}
+                    className='w-[22px] h-[22px] text-slate-800'
+                  />
                   <div className='absolute top-1 right-0 rounded-md h-[15px] w-[15px] bg-gradient-to-tl from-orange-500 to-yellow-300 text-white font-extrabold text-[11px] flex justify-center items-center'>
                     0
                   </div>
@@ -131,7 +136,6 @@ export function NewNavBar() {
             </div>
           </div>
         </div>
-
         {/* Mobile Navigation */}
         <div className='lg:hidden w-full h-full px-4 flex items-center justify-between'>
           <div>
@@ -147,7 +151,6 @@ export function NewNavBar() {
                 )}
               </div>
             </button>
-
             {mobileMenuOpen && (
               <>
                 <div
@@ -192,15 +195,19 @@ export function NewNavBar() {
                           <CollapsibleContent>
                             <div className='space-y-1.5 pt-2 pb-2 px-3'>
                               {platform.services.map((service, index) => {
-                                const IconComponent =
-                                  iconMap[service.icon as keyof typeof iconMap];
                                 return (
                                   <Link
                                     key={index}
                                     href={service.href}
                                     className={`w-full rounded-xl px-4 py-3 bg-gradient-to-r ${platform.gradientFrom} ${platform.gradientTo} flex items-center`}
                                   >
-                                    <IconComponent className='w-4 h-4 mr-1.5 -mt-0.5 opacity-90 shrink-0' />
+                                    <Image
+                                      src={service.icon || '/placeholder.svg'}
+                                      alt={service.name}
+                                      width={16}
+                                      height={16}
+                                      className='w-4 h-4 mr-1.5 -mt-0.5 opacity-90 shrink-0'
+                                    />
                                     <div className='z-10 text-[14px] font-medium text-gray-800'>
                                       {service.name}
                                     </div>
@@ -231,7 +238,6 @@ export function NewNavBar() {
               </>
             )}
           </div>
-
           <div className='z-[100] relative'>
             <Link href='/'>
               <Image
@@ -243,13 +249,18 @@ export function NewNavBar() {
               />
             </Link>
           </div>
-
           <div className='z-[100] relative'>
             <button
               onClick={() => setCartOpen(true)}
               className='w-10 h-10 justify-center items-center flex relative rounded-lg cursor-pointer hover:bg-gray-100 transition'
             >
-              <ShoppingCart className='w-[22px] h-[22px] text-slate-800' />
+              <Image
+                src='/shop.svg'
+                alt='Shopping Cart'
+                width={22}
+                height={22}
+                className='w-[22px] h-[22px] text-slate-800'
+              />
               <div className='absolute top-1 right-0 rounded-md h-[15px] w-[15px] bg-gradient-to-tl from-orange-500 to-yellow-300 text-white font-extrabold text-[11px] flex justify-center items-center'>
                 0
               </div>
@@ -257,7 +268,6 @@ export function NewNavBar() {
           </div>
         </div>
       </header>
-
       <CartSidebar isOpen={cartOpen} onClose={() => setCartOpen(false)} />
     </>
   );

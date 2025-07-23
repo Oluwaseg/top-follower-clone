@@ -9,29 +9,25 @@
         "name": "Italian Instagram Followers 🇮🇹",
         "price": "€5.79",
         "href": "/instagram-followers?premium=true",
-        "icon": "user",
-        "bgColor": "bg-orange-500"
+        "icon": "/icons/instagram-user.png"
       },
       {
         "name": "Instagram Followers",
         "price": "€3.49",
         "href": "/instagram-followers",
-        "icon": "user",
-        "bgColor": "bg-orange-500"
+        "icon": "/icons/instagram-user.png"
       },
       {
         "name": "Like Instagram",
         "price": "€2.49",
         "href": "/instagram-likes",
-        "icon": "heart",
-        "bgColor": "bg-orange-500"
+        "icon": "/icons/instagram-heart.png"
       },
       {
         "name": "Instagram Views",
         "price": "€2.39",
         "href": "/instagram-views",
-        "icon": "play",
-        "bgColor": "bg-orange-500"
+        "icon": "/icons/instagram-view.png"
       }
     ]
   },
@@ -45,29 +41,25 @@
         "name": "Italian TikTok Followers 🇮🇹",
         "price": "€4.49",
         "href": "/tiktok-followers?premium=true",
-        "icon": "user",
-        "bgColor": "bg-purple-600"
+        "icon": "/icons/tiktok-user.png"
       },
       {
         "name": "TikTok Followers",
         "price": "€3.79",
         "href": "/tiktok-followers",
-        "icon": "user",
-        "bgColor": "bg-purple-600"
+        "icon": "/icons/tiktok-user.png"
       },
       {
         "name": "Like TikTok",
         "price": "€2.79",
         "href": "/tiktok-likes",
-        "icon": "heart",
-        "bgColor": "bg-purple-600"
+        "icon": "/icons/tiktok-user.png"
       },
       {
         "name": "TikTok Views",
         "price": "€2.99",
         "href": "/tiktok-views",
-        "icon": "play",
-        "bgColor": "bg-purple-600"
+        "icon": "/icons/tiktok-view.png"
       }
     ]
   },
@@ -81,22 +73,19 @@
         "name": "YouTube Subscribers",
         "price": "€5.49",
         "href": "/youtube-subscribers",
-        "icon": "user",
-        "bgColor": "bg-red-500"
+        "icon": "/icons/youtube-user.webp"
       },
       {
         "name": "YouTube Views",
         "price": "€4.99",
         "href": "/youtube-views",
-        "icon": "play",
-        "bgColor": "bg-red-500"
+        "icon": "/icons/youtube-view.jpg"
       },
       {
         "name": "I Like YouTube",
         "price": "€3.49",
         "href": "/youtube-likes",
-        "icon": "heart",
-        "bgColor": "bg-red-500"
+        "icon": "/icons/youtube-likes.png"
       }
     ]
   },
@@ -110,15 +99,13 @@
         "name": "Facebook Followers",
         "price": "€4.49",
         "href": "/facebook-followers",
-        "icon": "user",
-        "bgColor": "bg-blue-600"
+        "icon": "/icons/facebook-user.png"
       },
       {
         "name": "FB - Like the Post",
         "price": "€2.99",
         "href": "/facebook-post-likes",
-        "icon": "heart",
-        "bgColor": "bg-blue-600"
+        "icon": "/icons/facebook-likes.png"
       }
     ]
   }
