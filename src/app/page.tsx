@@ -1,14 +1,14 @@
 'use client';
 
 import { FAQSection } from '@/components/faq-section';
-import { HeroSection } from '@/components/Hero';
+import { Hero } from '@/components/common/Hero';
 import { TestimonySection } from '@/components/Testimony-section';
 import { WhyUsSection } from '@/components/why-us-section';
 
 export default function LandingPage() {
   return (
     <main className=''>
-      <HeroSection />
+      <Hero />
       <WhyUsSection />
       <FAQSection />
       <TestimonySection />

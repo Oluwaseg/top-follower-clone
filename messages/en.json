@@ -3,11 +3,77 @@
     "brand": "Senpai Site",
     "about": "About",
     "instagram": "Instagram",
-    "tiktok": "TikTok"
+    "tiktok": "TikTok",
+    "contacts": "Contacts",
+    "faq": "FAQ",
+    "our_services": "Our services",
+    "useful_links": "Useful links"
+  },
+  "platforms": {
+    "instagram": "Instagram",
+    "tiktok": "TikTok",
+    "youtube": "YouTube",
+    "facebook": "Facebook"
+  },
+  "services": {
+    "instagram_followers": "Instagram Followers",
+    "italian_instagram_followers": "Italian Instagram Followers 🇮🇹",
+    "like_instagram": "Like Instagram",
+    "instagram_views": "Instagram Views",
+    "tiktok_followers": "TikTok Followers",
+    "italian_tiktok_followers": "Italian TikTok Followers 🇮🇹",
+    "like_tiktok": "Like TikTok",
+    "tiktok_views": "TikTok Views",
+    "youtube_subscribers": "YouTube Subscribers",
+    "youtube_views": "YouTube Views",
+    "like_youtube": "Like YouTube",
+    "facebook_followers": "Facebook Followers",
+    "facebook_post_likes": "FB - Like the Post"
   },
   "hero": {
-    "title": "Welcome to the landing page!",
-    "subtitle": "This is the English version of the hero section"
+    "main_heading": "Get guaranteed real and active <span class='text-orange-500'>followers in seconds!</span>",
+    "subheading": "Only the best quality. 100% risk-free and completely anonymous.",
+    "features": {
+      "immediate_delivery": "Immediate Delivery",
+      "satisfaction": "100% Satisfaction Guaranteed or Your Money Back",
+      "best_quality": "The best quality on the market",
+      "payment_methods": "Apple Pay, Google Pay and credit card",
+      "italian_service": "100% ITALIAN service"
+    }
+  },
+  "live_delivery": {
+    "delivered": "delivered",
+    "ago": "ago",
+    "minutes": "minutes",
+    "min": "min",
+    "seconds": "seconds",
+    "sec": "sec"
+  },
+  "service": {
+    "amount": "Amount :",
+    "save": "Save",
+    "free": "free",
+    "continue": "Continue",
+    "delivery_in": "Delivery in:",
+    "lifetime_warranty": "Lifetime warranty",
+    "support": "24/7 support",
+    "real_users": "100% Real Users",
+    "real_views": "100% Real Views",
+    "very_active": "Very Active Users",
+    "improved_engagement": "Improved Engagement",
+    "best_quality": "The best quality on the market",
+    "payment_solution": "Payment in a single solution",
+    "payment_methods": "Apple Pay, Google Pay and credit card",
+    "italian_service": "100% Italian Service",
+    "continue_btn": "Continue",
+    "savings": "Save",
+    "package_free": "+{bonus} free",
+    "real_active_users": "Real and Active Users",
+    "best_price": "Best Price Guaranteed",
+    "italian_followers": "Italian Followers",
+    "italian_only": "100% from Italy 🇮��",
+    "followers": "followers",
+    "european_followers": "European Followers"
   },
   "about": {
     "title": "About Page"
@@ -17,5 +83,32 @@
   },
   "tiktok": {
     "title": "TikTok Page"
+  },
+  "banner": {
+    "special_offer": "Special offer",
+    "discount": "5% OFF, DISCOUNT CODE: TOP5",
+    "hours": "hours",
+    "min": "min",
+    "sec": "sec"
+  },
+  "cart": {
+    "your_cart": "Your cart",
+    "empty": "Your cart is completely empty...",
+    "choose": "You should choose something nice for your profile. 🤷",
+    "back_to_shop": "Back to the shop"
+  },
+  "footer": {
+    "slogan": "A modern online tool to increase the popularity of your social networks.",
+    "all_services_working": "All services working",
+    "our_services": "Our services",
+    "useful_links": "Useful links",
+    "contact_us": "Contact us",
+    "reviews": "Reviews",
+    "terms": "Terms and conditions",
+    "privacy": "Privacy",
+    "contacts": "Contacts",
+    "terms_and_conditions": "Terms and Conditions",
+    "privacy_policy": "Privacy Policy",
+    "copyright": "© 2025 TopFollower - All rights reserved."
   }
 } 

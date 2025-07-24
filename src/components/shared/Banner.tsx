@@ -4,12 +4,14 @@ import { useCountdown } from '@/hooks/use-countdown';
 import { Clock } from 'lucide-react';
 import Image from 'next/image';
 import { useState } from 'react';
+import { useTranslations } from 'next-intl';
 
 export function Banner() {
   const [targetDate] = useState(
     () => new Date(Date.now() + 24 * 60 * 60 * 1000)
   );
   const { hours, minutes, seconds } = useCountdown(targetDate);
+  const t = useTranslations('banner');
 
   return (
     <div
@@ -29,11 +31,11 @@ export function Banner() {
 
           <div className='z-10 hidden drop-shadow rounded-full bg-white/30 px-4 py-1.5 font-inter font-bold text-xs text-slate-100 sm:flex animate-pulse items-center justify-center uppercase'>
             <Clock className='mr-1.5 text-yellow-300 font-bold w-5 h-5' />
-            <span>Special offer</span>
+            <span>{t('special_offer')}</span>
           </div>
 
           <div className='z-10 flex items-center justify-center font-extrabold text-sm text-slate-100'>
-            <p className='leading-[15px]'>5% OFF, DISCOUNT CODE: TOP5</p>
+            <p className='leading-[15px]'>{t('discount')}</p>
             <div className='px-4'>
               <div className='grid grid-flow-col gap-2 text-center'>
                 <div className='flex flex-col py-1 px-2.5 bg-slate-100 rounded-lg text-indigo-600 justify-center items-center'>
@@ -41,7 +43,7 @@ export function Banner() {
                     {hours.toString().padStart(2, '0')}
                   </span>
                   <span className='text-[11px] uppercase text-gray-700 -mt-0.5'>
-                    hours
+                    {t('hours')}
                   </span>
                 </div>
                 <div className='flex flex-col py-1 px-2.5 bg-slate-100 rounded-lg text-indigo-600 justify-center items-center'>
@@ -49,7 +51,7 @@ export function Banner() {
                     {minutes.toString().padStart(2, '0')}
                   </span>
                   <span className='text-[11px] uppercase text-gray-700 -mt-0.5'>
-                    min
+                    {t('min')}
                   </span>
                 </div>
                 <div className='flex flex-col py-1 px-2.5 bg-slate-100 rounded-lg text-indigo-600 justify-center items-center'>
@@ -57,7 +59,7 @@ export function Banner() {
                     {seconds.toString().padStart(2, '0')}
                   </span>
                   <span className='text-[11px] uppercase text-gray-700 -mt-0.5'>
-                    sec
+                    {t('sec')}
                   </span>
                 </div>
               </div>

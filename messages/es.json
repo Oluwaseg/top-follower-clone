@@ -1,0 +1,105 @@
+{
+  "navbar": {
+    "brand": "Sitio Senpai",
+    "about": "Acerca de",
+    "instagram": "Instagram",
+    "tiktok": "TikTok",
+    "contacts": "Contactos",
+    "faq": "Preguntas frecuentes",
+    "our_services": "Nuestros servicios",
+    "useful_links": "Enlaces útiles"
+  },
+  "platforms": {
+    "instagram": "Instagram",
+    "tiktok": "TikTok",
+    "youtube": "YouTube",
+    "facebook": "Facebook"
+  },
+  "services": {
+    "instagram_followers": "Seguidores de Instagram",
+    "italian_instagram_followers": "Seguidores italianos de Instagram 🇮🇹",
+    "like_instagram": "Me gusta en Instagram",
+    "instagram_views": "Vistas de Instagram",
+    "tiktok_followers": "Seguidores de TikTok",
+    "italian_tiktok_followers": "Seguidores italianos de TikTok 🇮🇹",
+    "like_tiktok": "Me gusta en TikTok",
+    "tiktok_views": "Vistas de TikTok",
+    "youtube_subscribers": "Suscriptores de YouTube",
+    "youtube_views": "Vistas de YouTube",
+    "like_youtube": "Me gusta en YouTube",
+    "facebook_followers": "Seguidores de Facebook",
+    "facebook_post_likes": "Me gusta en la publicación de Facebook"
+  },
+  "banner": {
+    "special_offer": "Oferta especial",
+    "discount": "5% DE DESCUENTO, CÓDIGO: TOP5",
+    "hours": "horas",
+    "min": "min",
+    "sec": "seg"
+  },
+  "cart": {
+    "your_cart": "Tu carrito",
+    "empty": "Tu carrito está completamente vacío...",
+    "choose": "Deberías elegir algo bonito para tu perfil. 🤷",
+    "back_to_shop": "Volver a la tienda"
+  },
+  "footer": {
+    "slogan": "Una herramienta moderna en línea para aumentar la popularidad de tus redes sociales.",
+    "all_services_working": "Todos los servicios funcionando",
+    "our_services": "Nuestros servicios",
+    "useful_links": "Enlaces útiles",
+    "contact_us": "Contáctanos",
+    "reviews": "Reseñas",
+    "terms": "Términos y condiciones",
+    "privacy": "Privacidad",
+    "contacts": "Contactos",
+    "terms_and_conditions": "Términos y condiciones",
+    "privacy_policy": "Política de privacidad",
+    "copyright": "© 2025 TopFollower - Todos los derechos reservados."
+  },
+  "hero": {
+    "main_heading": "¡Obtén seguidores reales y activos <span class='text-orange-500'>garantizados en segundos!</span>",
+    "subheading": "Solo la mejor calidad. 100% libre de riesgos y completamente anónimo.",
+    "features": {
+      "immediate_delivery": "Entrega inmediata",
+      "satisfaction": "100% de satisfacción garantizada o te devolvemos tu dinero",
+      "best_quality": "La mejor calidad del mercado",
+      "payment_methods": "Apple Pay, Google Pay y tarjeta de crédito",
+      "italian_service": "Servicio 100% ITALIANO"
+    }
+  },
+  "live_delivery": {
+    "delivered": "entregado",
+    "ago": "hace",
+    "minutes": "minutos",
+    "min": "min",
+    "seconds": "segundos",
+    "sec": "seg"
+  },
+  "service": {
+    "amount": "Cantidad :",
+    "save": "Ahorra",
+    "free": "gratis",
+    "continue": "Continuar",
+    "delivery_in": "Entrega en:",
+    "lifetime_warranty": "Garantía de por vida",
+    "support": "Soporte 24/7",
+    "real_users": "100% Usuarios reales",
+    "real_views": "100% Vistas reales",
+    "very_active": "Usuarios muy activos",
+    "improved_engagement": "Mayor compromiso",
+    "best_quality": "La mejor calidad del mercado",
+    "payment_solution": "Pago en una sola solución",
+    "payment_methods": "Apple Pay, Google Pay y tarjeta de crédito",
+    "italian_service": "Servicio 100% italiano",
+    "continue_btn": "Continuar",
+    "savings": "Ahorra",
+    "package_free": "+{bonus} gratis",
+    "real_active_users": "Usuarios reales y activos",
+    "best_price": "Mejor precio garantizado",
+    "italian_followers": "Seguidores italianos",
+    "italian_only": "100% de Italia 🇮🇹",
+    "followers": "seguidores",
+    "european_followers": "Seguidores europeos"
+  }
+} 

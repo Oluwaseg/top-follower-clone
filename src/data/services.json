@@ -1,204 +1,61 @@
 {
   "instagram-followers": {
-    "title": "Instagram Followers - 100% Real and Active 🇮🇹",
-    "badge": "INSTAGRAM",
-    "serviceType": "followers",
+    "title": "service.title.instagram_followers",
+    "badge": "service.badge.instagram",
+    "serviceType": "service.type.followers",
     "liveDeliveries": [
-      {
-        "amount": "500 followers",
-        "action": "delivered",
-        "time": "5 minutes ago"
-      },
-      {
-        "amount": "1000 followers",
-        "action": "delivered",
-        "time": "16 min ago"
-      },
-      {
-        "amount": "250 likes",
-        "action": "delivered",
-        "time": "3 min ago"
-      },
-      {
-        "amount": "100 followers",
-        "action": "delivered",
-        "time": "20 min ago"
-      },
-      {
-        "amount": "5000 likes",
-        "action": "delivered",
-        "time": "13 min ago"
-      },
-      {
-        "amount": "300 followers",
-        "action": "delivered",
-        "time": "21 min ago"
-      },
-      {
-        "amount": "1000 likes",
-        "action": "delivered",
-        "time": "6 min ago"
-      },
-      {
-        "amount": "2500 followers",
-        "action": "delivered",
-        "time": "32 min ago"
-      }
+      { "amount": "500 followers", "action": "live_delivery.delivered", "time": "5 minutes ago" },
+      { "amount": "1000 followers", "action": "live_delivery.delivered", "time": "16 min ago" },
+      { "amount": "250 likes", "action": "live_delivery.delivered", "time": "3 min ago" },
+      { "amount": "100 followers", "action": "live_delivery.delivered", "time": "20 min ago" },
+      { "amount": "5000 likes", "action": "live_delivery.delivered", "time": "13 min ago" },
+      { "amount": "300 followers", "action": "live_delivery.delivered", "time": "21 min ago" },
+      { "amount": "1000 likes", "action": "live_delivery.delivered", "time": "6 min ago" },
+      { "amount": "2500 followers", "action": "live_delivery.delivered", "time": "32 min ago" }
     ],
     "variants": {
       "european": {
-        "name": "European Followers",
+        "name": "service.variant.european_followers",
         "flag": "/flags/eu.png",
-        "features": ["Real and Active Users", "Best Price Guaranteed"],
+        "features": ["service.features.real_active_users", "service.features.best_price"],
         "packages": [
-          {
-            "amount": 100,
-            "bonus": 0,
-            "price": 3.49,
-            "originalPrice": 9.99
-          },
-          {
-            "amount": 250,
-            "bonus": 25,
-            "price": 6.99,
-            "originalPrice": 19.99
-          },
-          {
-            "amount": 500,
-            "bonus": 50,
-            "price": 12.99,
-            "originalPrice": 34.99
-          },
-          {
-            "amount": 1000,
-            "bonus": 100,
-            "price": 24.99,
-            "originalPrice": 59.99
-          },
-          {
-            "amount": 2000,
-            "bonus": 200,
-            "price": 44.99,
-            "originalPrice": 99.99
-          },
-          {
-            "amount": 5000,
-            "bonus": 500,
-            "price": 89.99,
-            "originalPrice": 199.99
-          },
-          {
-            "amount": 10000,
-            "bonus": 1000,
-            "price": 159.99,
-            "originalPrice": 349.99
-          },
-          {
-            "amount": 20000,
-            "bonus": 2000,
-            "price": 299.99,
-            "originalPrice": 599.99
-          },
-          {
-            "amount": 50000,
-            "bonus": 5000,
-            "price": 699.99,
-            "originalPrice": 1299.99
-          }
+          { "amount": 100, "bonus": 0, "price": 3.49, "originalPrice": 9.99 },
+          { "amount": 250, "bonus": 25, "price": 6.99, "originalPrice": 19.99 },
+          { "amount": 500, "bonus": 50, "price": 12.99, "originalPrice": 34.99 },
+          { "amount": 1000, "bonus": 100, "price": 24.99, "originalPrice": 59.99 },
+          { "amount": 2000, "bonus": 200, "price": 44.99, "originalPrice": 99.99 },
+          { "amount": 5000, "bonus": 500, "price": 89.99, "originalPrice": 199.99 },
+          { "amount": 10000, "bonus": 1000, "price": 159.99, "originalPrice": 349.99 },
+          { "amount": 20000, "bonus": 2000, "price": 299.99, "originalPrice": 599.99 },
+          { "amount": 50000, "bonus": 5000, "price": 699.99, "originalPrice": 1299.99 }
         ]
       },
       "italian": {
-        "name": "Italian Followers",
+        "name": "service.variant.italian_followers",
         "flag": "/flags/italy.png",
-        "features": ["Real and Active Users", "100% from Italy 🇮🇹"],
+        "features": ["service.features.real_active_users", "service.features.italian_only"],
         "packages": [
-          {
-            "amount": 50,
-            "bonus": 0,
-            "price": 5.79,
-            "originalPrice": 19.99
-          },
-          {
-            "amount": 100,
-            "bonus": 10,
-            "price": 9.99,
-            "originalPrice": 29.99
-          },
-          {
-            "amount": 300,
-            "bonus": 30,
-            "price": 24.99,
-            "originalPrice": 69.99
-          },
-          {
-            "amount": 500,
-            "bonus": 50,
-            "price": 39.99,
-            "originalPrice": 99.99
-          },
-          {
-            "amount": 1000,
-            "bonus": 100,
-            "price": 69.99,
-            "originalPrice": 179.99
-          },
-          {
-            "amount": 1500,
-            "bonus": 150,
-            "price": 99.99,
-            "originalPrice": 249.99
-          },
-          {
-            "amount": 2000,
-            "bonus": 200,
-            "price": 129.99,
-            "originalPrice": 319.99
-          }
+          { "amount": 50, "bonus": 0, "price": 5.79, "originalPrice": 19.99 },
+          { "amount": 100, "bonus": 10, "price": 9.99, "originalPrice": 29.99 },
+          { "amount": 300, "bonus": 30, "price": 24.99, "originalPrice": 69.99 },
+          { "amount": 500, "bonus": 50, "price": 39.99, "originalPrice": 99.99 },
+          { "amount": 1000, "bonus": 100, "price": 69.99, "originalPrice": 179.99 },
+          { "amount": 1500, "bonus": 150, "price": 99.99, "originalPrice": 249.99 },
+          { "amount": 2000, "bonus": 200, "price": 129.99, "originalPrice": 319.99 }
         ]
       }
     },
     "features": [
-      {
-        "emoji": "⚡️",
-        "text": "Delivery in:",
-        "highlight": "27 seconds"
-      },
-      {
-        "emoji": "✅",
-        "text": "Lifetime warranty"
-      },
-      {
-        "emoji": "💬",
-        "text": "24/7 support"
-      },
-      {
-        "emoji": "🙋‍♂️",
-        "text": "100% Real Users"
-      },
-      {
-        "emoji": "🟢",
-        "text": "Very Active Users"
-      },
-      {
-        "emoji": "🚀",
-        "text": "Improved Engagement"
-      },
-      {
-        "emoji": "🥇",
-        "text": "The best quality on the market"
-      },
-      {
-        "emoji": "🔒",
-        "text": "Payment in a single solution"
-      },
-      {
-        "emoji": "💳",
-        "text": "Apple Pay, Google Pay and credit card"
-      },
-      {
-        "emoji": "🇮🇹",
-        "text": "100% Italian Service"
-      }
+      { "emoji": "⚡️", "text": "service.features.delivery_in", "highlight": "27 seconds" },
+      { "emoji": "✅", "text": "service.features.lifetime_warranty" },
+      { "emoji": "💬", "text": "service.features.support" },
+      { "emoji": "🙋‍♂️", "text": "service.features.real_users" },
+      { "emoji": "🟢", "text": "service.features.very_active" },
+      { "emoji": "🚀", "text": "service.features.improved_engagement" },
+      { "emoji": "🥇", "text": "service.features.best_quality" },
+      { "emoji": "🔒", "text": "service.features.payment_solution" },
+      { "emoji": "💳", "text": "service.features.payment_methods" },
+      { "emoji": "🇮🇹", "text": "service.features.italian_service" }
     ]
   },
   "instagram-likes": {

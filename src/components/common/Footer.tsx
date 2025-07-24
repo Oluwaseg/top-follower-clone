@@ -1,7 +1,9 @@
 import Image from 'next/image';
 import Link from 'next/link';
+import { useTranslations } from 'next-intl';
 
 export function Footer() {
+  const t = useTranslations('footer');
   return (
     <footer className='z-10 border-t border-gray-200 bg-white/50 py-8 mb-24'>
       <div className='container px-8 lg:px-20 pt-4'>
@@ -20,15 +22,14 @@ export function Footer() {
               </Link>
             </div>
             <p className='max-w-xs mx-auto md:mx-0 text-[15px] text-gray-600 text-center md:text-left'>
-              A modern online tool to increase the popularity of your social
-              networks.
+              {t('slogan')}
             </p>
             <div className='rounded-xl border bg-gray-50 hover:bg-gray-100 border-1 flex items-center w-fit px-3 py-2 text-xs mx-auto md:mx-0'>
               <span className='relative flex ml-0.5 mr-2.5 h-3 w-3'>
                 <span className='absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400 opacity-75'></span>
                 <span className='relative inline-flex h-3 w-3 rounded-full bg-green-500'></span>
               </span>
-              All services working
+              {t('all_services_working')}
             </div>
           </div>
 
@@ -39,7 +40,7 @@ export function Footer() {
             {/* Our Services */}
             <div>
               <h3 className='text-lg font-semibold text-gray-900'>
-                Our services
+                {t('our_services')}
               </h3>
               <ul className='mt-4 space-y-1'>
                 <li>
@@ -80,7 +81,7 @@ export function Footer() {
             {/* Useful Links */}
             <div>
               <h3 className='text-lg font-semibold text-gray-900'>
-                Useful links
+                {t('useful_links')}
               </h3>
               <ul className='mt-4 space-y-1'>
                 <li>
@@ -88,7 +89,7 @@ export function Footer() {
                     href='/reviews'
                     className='text-sm text-gray-600 hover:text-gray-900'
                   >
-                    Reviews
+                    {t('reviews')}
                   </Link>
                 </li>
                 <li>
@@ -96,7 +97,7 @@ export function Footer() {
                     href='/tos'
                     className='text-sm text-gray-600 hover:text-gray-900'
                   >
-                    Terms and conditions
+                    {t('terms')}
                   </Link>
                 </li>
                 <li>
@@ -104,7 +105,7 @@ export function Footer() {
                     href='/privacy-policy'
                     className='text-sm text-gray-600 hover:text-gray-900'
                   >
-                    Privacy
+                    {t('privacy')}
                   </Link>
                 </li>
               </ul>
@@ -113,7 +114,7 @@ export function Footer() {
             {/* Contact Us */}
             <div>
               <h3 className='text-lg font-semibold text-gray-900'>
-                Contact us
+                {t('contact_us')}
               </h3>
               <ul className='mt-4 space-y-1'>
                 <li>
@@ -121,7 +122,7 @@ export function Footer() {
                     href='/contact'
                     className='text-sm text-gray-600 hover:text-gray-900'
                   >
-                    Contacts
+                    {t('contacts')}
                   </Link>
                 </li>
               </ul>
@@ -203,24 +204,24 @@ export function Footer() {
           <div className='space-x-1 text-sm text-gray-500'>
             <span>
               <Link href='/reviews' className='hover:text-gray-800'>
-                Reviews
+                {t('reviews')}
               </Link>
               <span className='ml-1'>·</span>
             </span>
             <span>
               <Link href='/tos' className='hover:text-gray-800'>
-                Terms and Conditions
+                {t('terms_and_conditions')}
               </Link>
               <span className='ml-1'>·</span>
             </span>
             <span>
               <Link href='/privacy-policy' className='hover:text-gray-800'>
-                Privacy Policy
+                {t('privacy_policy')}
               </Link>
             </span>
           </div>
           <p className='mt-4 text-sm text-gray-500 sm:order-first sm:mt-0'>
-            © 2025 TopFollower - All rights reserved.
+            {t('copyright')}
           </p>
         </div>
       </div>

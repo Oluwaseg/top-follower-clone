@@ -1,11 +1,11 @@
 import { Banner } from '../shared/Banner';
-import { NewNavBar } from '../shared/NewNavBar';
+import { NavBar } from './Navbar';
 
 function Header() {
   return (
     <>
       <Banner />
-      <NewNavBar />
+      <NavBar />
     </>
   );
 }

@@ -7,6 +7,7 @@ import {
   SheetHeader,
   SheetTitle,
 } from '@/components/ui/sheet';
+import { useTranslations } from 'next-intl';
 
 interface CartSidebarProps {
   isOpen: boolean;
@@ -14,11 +15,12 @@ interface CartSidebarProps {
 }
 
 export function CartSidebar({ isOpen, onClose }: CartSidebarProps) {
+  const t = useTranslations('cart');
   return (
     <Sheet open={isOpen} onOpenChange={onClose}>
       <SheetContent side='right' className='w-80'>
         <SheetHeader>
-          <SheetTitle>Your cart</SheetTitle>
+          <SheetTitle>{t('your_cart')}</SheetTitle>
         </SheetHeader>
 
         <div className='flex-1 flex flex-col items-center justify-center p-8 text-center mt-8'>
@@ -28,13 +30,13 @@ export function CartSidebar({ isOpen, onClose }: CartSidebarProps) {
             </div>
           </div>
           <h3 className='text-lg font-semibold mb-2'>
-            Your cart is completely empty...
+            {t('empty')}
           </h3>
           <p className='text-gray-600 mb-6'>
-            You should choose something nice for your profile. 🤷
+            {t('choose')}
           </p>
           <Button className='bg-orange-500 hover:bg-orange-600'>
-            Back to the shop
+            {t('back_to_shop')}
           </Button>
         </div>
       </SheetContent>

@@ -12,6 +12,7 @@ import { TestimonySection } from '../Testimony-section';
 import { FAQSection } from '../faq-section';
 import { ReviewBlock } from '../review-block/review-block';
 import { WhyUsSection } from '../why-us-section';
+import { useTranslations } from 'next-intl';
 
 interface Package {
   amount: number;
@@ -64,6 +65,7 @@ export function ServicePage({
     'european' | 'italian'
   >(isPremium ? 'italian' : 'european');
   const [selectedPackage, setSelectedPackage] = useState(0);
+  const t = useTranslations('service');
 
   const hasVariants = serviceData.variants !== undefined;
   const currentVariant = hasVariants
@@ -139,14 +141,14 @@ export function ServicePage({
               <span
                 className={`text-sm font-extrabold uppercase ${badgeStyles.textClass}`}
               >
-                {serviceData.badge}
+                {t(serviceData.badge.replace('service.badge.', ''))}
               </span>
             </Badge>
           </div>
 
           {/* Title */}
           <h1 className='text-[32px] leading-10 mt-1 font-bold text-center md:text-4xl text-gray-900 w-full md:w-[576px]'>
-            {serviceData.title}
+            {t(serviceData.title.replace('service.title.', ''))}
           </h1>
 
           {/* Live Delivery Ticker */}
@@ -177,14 +179,14 @@ export function ServicePage({
                       width={20}
                       height={20}
                     />
-                    <span>{serviceData.variants.european.name}</span>
+                    <span>{t(serviceData.variants.european.name.replace('service.variant.', ''))}</span>
                   </div>
                   <div className='pl-2 pr-4 pt-2 pb-4 sm:pb-6 text-sm sm:text-[15px] text-foreground/90 space-y-1.5 font-medium text-left'>
                     {serviceData.variants.european.features.map(
                       (feature, index) => (
                         <div key={index} className='flex sm:items-center'>
                           <Check className='w-4 h-4 mr-1.5 mt-0.5 sm:mt-0' />
-                          <div>{feature}</div>
+                          <div>{t(feature.replace('service.features.', ''))}</div>
                         </div>
                       )
                     )}
@@ -223,11 +225,8 @@ export function ServicePage({
                       height={20}
                     />
                     <div className='z-10'>
-                      <b>{serviceData.variants.italian.name.split(' ')[0]}</b>{' '}
-                      {serviceData.variants.italian.name
-                        .split(' ')
-                        .slice(1)
-                        .join(' ')}
+                      <b>{t(serviceData.variants.italian.name.replace('service.variant.', '')).split(' ')[0]}</b>{' '}
+                      {t(serviceData.variants.italian.name.replace('service.variant.', '')).split(' ').slice(1).join(' ')}
                     </div>
                   </div>
                   <div className='pl-2 pr-4 pt-2 pb-4 sm:pb-6 text-sm sm:text-[15px] text-foreground/90 space-y-1.5 font-medium text-left'>
@@ -238,7 +237,7 @@ export function ServicePage({
                             className='w-4 h-4 mr-1.5 mt-0.5 sm:mt-0 text-orange-500'
                             strokeWidth={3}
                           />
-                          <div>{feature}</div>
+                          <div>{t(feature.replace('service.features.', ''))}</div>
                         </div>
                       )
                     )}
@@ -265,7 +264,7 @@ export function ServicePage({
             <Card className='rounded-[20px] bg-white shadow-lg w-full md:w-[576px] px-4 py-6'>
               <CardContent className='p-6 pt-0 px-0 w-full'>
                 <h2 className='text-center text-lg md:text-xl font-semibold text-gray-700'>
-                  Amount :
+                  {t('amount')}
                 </h2>
 
                 {/* Package Selection */}
@@ -293,8 +292,8 @@ export function ServicePage({
                         }`}
                       >
                         {pkg.bonus > 0
-                          ? `+${pkg.bonus} free`
-                          : serviceData.serviceType}
+                          ? t('package_free', { bonus: pkg.bonus })
+                          : t(serviceData.serviceType.replace('service.type.', ''))}
                       </div>
                     </button>
                   ))}
@@ -315,7 +314,7 @@ export function ServicePage({
                 {/* Continue Button */}
                 <div className='flex justify-center mt-5'>
                   <Button className='z-[5] relative rounded-xl px-8 py-6 text-md text-white shadow-md hover:shadow-lg transition duration-150 bg-orange-500 hover:bg-orange-600 w-fit font-semibold hover:scale-[0.97]'>
-                    Continues
+                    {t('continue_btn')}
                     <ArrowRight className='ml-1.5 w-4 h-4 mt-[1px]' />
                   </Button>
                 </div>
@@ -330,7 +329,7 @@ export function ServicePage({
                       />
                     </div>
                     <div className='font-semibold text-foreground/75'>
-                      Save{' '}
+                      {t('save')}{' '}
                       <span className='text-green-500 font-bold'>
                         €
                         {(
@@ -354,7 +353,7 @@ export function ServicePage({
                       {feature.emoji}
                     </div>
                     <div className='mt-0'>
-                      {feature.text}{' '}
+                      {t(feature.text.replace('service.features.', ''))}{' '}
                       {feature.highlight && (
                         <span className='text-orange-500 font-bold'>
                           {feature.highlight}

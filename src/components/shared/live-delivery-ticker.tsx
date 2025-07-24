@@ -2,6 +2,7 @@
 
 import { Check } from 'lucide-react';
 import { useEffect, useState } from 'react';
+import { useTranslations } from 'next-intl';
 
 interface DeliveryItem {
   amount: string;
@@ -15,6 +16,7 @@ interface LiveDeliveryTickerProps {
 
 export function LiveDeliveryTicker({ deliveries }: LiveDeliveryTickerProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const t = useTranslations('live_delivery');
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -25,6 +27,20 @@ export function LiveDeliveryTicker({ deliveries }: LiveDeliveryTickerProps) {
   }, [deliveries.length]);
 
   const currentDelivery = deliveries[currentIndex];
+
+  // Example: parse '5 minutes ago' to use translation keys
+  function localizeTime(time: string) {
+    // Simple example: '5 minutes ago' => '5 ' + t('minutes') + ' ' + t('ago')
+    const match = time.match(/(\d+)\s*(\w+)\s*(ago|min|sec)?/);
+    if (!match) return time;
+    const [, num, unit, ago] = match;
+    let unitKey = unit;
+    if (unit === 'minutes') unitKey = 'minutes';
+    if (unit === 'min') unitKey = 'min';
+    if (unit === 'seconds') unitKey = 'seconds';
+    if (unit === 'sec') unitKey = 'sec';
+    return `${num} ${t(unitKey)}${ago ? ' ' + t('ago') : ''}`;
+  }
 
   return (
     <div className='px-4 h-[54px] overflow-hidden rounded-xl w-full max-w-[330px] md:w-[360px] md:max-w-[360px] flex items-center space-x-2 bg-gradient-to-b from-emerald-100/80 to-emerald-50/80 border-emerald-100 border'>
@@ -40,7 +56,7 @@ export function LiveDeliveryTicker({ deliveries }: LiveDeliveryTickerProps) {
           <div className='flex items-center justify-between w-full font-normal text-[13px] md:text-sm text-emerald-900'>
             <div className='text-nowrap'>
               <span className='font-semibold'>{currentDelivery.amount}</span>{' '}
-              <span className='deliver-text'>{currentDelivery.action}</span>
+              <span className='deliver-text'>{t(currentDelivery.action.replace('live_delivery.', ''))}</span>
             </div>
             <div className='ml-auto flex items-center space-x-1.5'>
               <div className='rounded-full w-[19px] h-[19px] p-[3px] bg-white shadow-md'>
@@ -49,7 +65,7 @@ export function LiveDeliveryTicker({ deliveries }: LiveDeliveryTickerProps) {
                   strokeWidth={4.5}
                 />
               </div>
-              <div>{currentDelivery.time}</div>
+              <div>{localizeTime(currentDelivery.time)}</div>
             </div>
           </div>
         </div>

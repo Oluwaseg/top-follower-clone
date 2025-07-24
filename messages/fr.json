@@ -3,11 +3,77 @@
     "brand": "Site Senpai",
     "about": "À propos",
     "instagram": "Instagram",
-    "tiktok": "TikTok"
+    "tiktok": "TikTok",
+    "contacts": "Contacts",
+    "faq": "FAQ",
+    "our_services": "Nos services",
+    "useful_links": "Liens utiles"
+  },
+  "platforms": {
+    "instagram": "Instagram",
+    "tiktok": "TikTok",
+    "youtube": "YouTube",
+    "facebook": "Facebook"
+  },
+  "services": {
+    "instagram_followers": "Abonnés Instagram",
+    "italian_instagram_followers": "Abonnés italiens Instagram 🇮🇹",
+    "like_instagram": "J'aime Instagram",
+    "instagram_views": "Vues Instagram",
+    "tiktok_followers": "Abonnés TikTok",
+    "italian_tiktok_followers": "Abonnés italiens TikTok 🇮🇹",
+    "like_tiktok": "J'aime TikTok",
+    "tiktok_views": "Vues TikTok",
+    "youtube_subscribers": "Abonnés YouTube",
+    "youtube_views": "Vues YouTube",
+    "like_youtube": "J'aime YouTube",
+    "facebook_followers": "Abonnés Facebook",
+    "facebook_post_likes": "J'aime la publication Facebook"
   },
   "hero": {
-    "title": "Bienvenue sur la page d'accueil!",
-    "subtitle": "Ceci est la version française de la section héros"
+    "main_heading": "Obtenez des abonnés réels et actifs <span class='text-orange-500'>garantis en quelques secondes !</span>",
+    "subheading": "La meilleure qualité uniquement. 100% sans risque et totalement anonyme.",
+    "features": {
+      "immediate_delivery": "Livraison immédiate",
+      "satisfaction": "100% Satisfaction garantie ou remboursé",
+      "best_quality": "La meilleure qualité du marché",
+      "payment_methods": "Apple Pay, Google Pay et carte de crédit",
+      "italian_service": "Service 100% ITALIEN"
+    }
+  },
+  "live_delivery": {
+    "delivered": "livré",
+    "ago": "il y a",
+    "minutes": "minutes",
+    "min": "min",
+    "seconds": "secondes",
+    "sec": "sec"
+  },
+  "service": {
+    "amount": "Quantité :",
+    "save": "Économisez",
+    "free": "gratuit",
+    "continue": "Continuer",
+    "delivery_in": "Livraison en :",
+    "lifetime_warranty": "Garantie à vie",
+    "support": "Support 24/7",
+    "real_users": "100% Utilisateurs réels",
+    "real_views": "100% Vues réelles",
+    "very_active": "Utilisateurs très actifs",
+    "improved_engagement": "Engagement amélioré",
+    "best_quality": "La meilleure qualité du marché",
+    "payment_solution": "Paiement en une seule solution",
+    "payment_methods": "Apple Pay, Google Pay et carte de crédit",
+    "italian_service": "Service 100% italien",
+    "continue_btn": "Continuer",
+    "savings": "Économisez",
+    "package_free": "+{bonus} gratuit",
+    "real_active_users": "Utilisateurs réels et actifs",
+    "best_price": "Meilleur prix garanti",
+    "italian_followers": "Abonnés italiens",
+    "italian_only": "100% d'Italie 🇮🇹",
+    "followers": "abonnés",
+    "european_followers": "Abonnés européens"
   },
   "about": {
     "title": "Page À propos"
@@ -17,5 +83,32 @@
   },
   "tiktok": {
     "title": "Page TikTok"
+  },
+  "banner": {
+    "special_offer": "Offre spéciale",
+    "discount": "5% DE RÉDUCTION, CODE : TOP5",
+    "hours": "heures",
+    "min": "min",
+    "sec": "sec"
+  },
+  "cart": {
+    "your_cart": "Votre panier",
+    "empty": "Votre panier est complètement vide...",
+    "choose": "Vous devriez choisir quelque chose de sympa pour votre profil. 🤷",
+    "back_to_shop": "Retour à la boutique"
+  },
+  "footer": {
+    "slogan": "Un outil en ligne moderne pour augmenter la popularité de vos réseaux sociaux.",
+    "all_services_working": "Tous les services fonctionnent",
+    "our_services": "Nos services",
+    "useful_links": "Liens utiles",
+    "contact_us": "Contactez-nous",
+    "reviews": "Avis",
+    "terms": "Conditions générales",
+    "privacy": "Confidentialité",
+    "contacts": "Contacts",
+    "terms_and_conditions": "Conditions générales",
+    "privacy_policy": "Politique de confidentialité",
+    "copyright": "© 2025 TopFollower - Tous droits réservés."
   }
 } 
