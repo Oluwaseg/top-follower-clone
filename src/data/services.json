@@ -10,16 +10,40 @@
         "time": "5 minutes ago"
       },
       {
-        "amount": "1000 follower",
-        "action": "consegnati",
-        "time": "16 min fa"
+        "amount": "1000 followers",
+        "action": "delivered",
+        "time": "16 min ago"
       },
-      { "amount": "250 like", "action": "consegnati", "time": "3 min fa" },
-      { "amount": "100 follower", "action": "consegnati", "time": "20 min fa" },
-      { "amount": "5000 like", "action": "consegnati", "time": "13 min fa" },
-      { "amount": "300 follower", "action": "consegnati", "time": "21 min fa" },
-      { "amount": "1000 like", "action": "consegnati", "time": "6 min fa" },
-      { "amount": "2500 follower", "action": "consegnati", "time": "32 min fa" }
+      {
+        "amount": "250 likes",
+        "action": "delivered",
+        "time": "3 min ago"
+      },
+      {
+        "amount": "100 followers",
+        "action": "delivered",
+        "time": "20 min ago"
+      },
+      {
+        "amount": "5000 likes",
+        "action": "delivered",
+        "time": "13 min ago"
+      },
+      {
+        "amount": "300 followers",
+        "action": "delivered",
+        "time": "21 min ago"
+      },
+      {
+        "amount": "1000 likes",
+        "action": "delivered",
+        "time": "6 min ago"
+      },
+      {
+        "amount": "2500 followers",
+        "action": "delivered",
+        "time": "32 min ago"
+      }
     ],
     "variants": {
       "european": {
@@ -27,8 +51,18 @@
         "flag": "/flags/eu.png",
         "features": ["Real and Active Users", "Best Price Guaranteed"],
         "packages": [
-          { "amount": 100, "bonus": 0, "price": 3.49, "originalPrice": 9.99 },
-          { "amount": 250, "bonus": 25, "price": 6.99, "originalPrice": 19.99 },
+          {
+            "amount": 100,
+            "bonus": 0,
+            "price": 3.49,
+            "originalPrice": 9.99
+          },
+          {
+            "amount": 250,
+            "bonus": 25,
+            "price": 6.99,
+            "originalPrice": 19.99
+          },
           {
             "amount": 500,
             "bonus": 50,
@@ -78,8 +112,18 @@
         "flag": "/flags/italy.png",
         "features": ["Real and Active Users", "100% from Italy 🇮🇹"],
         "packages": [
-          { "amount": 50, "bonus": 0, "price": 5.79, "originalPrice": 19.99 },
-          { "amount": 100, "bonus": 10, "price": 9.99, "originalPrice": 29.99 },
+          {
+            "amount": 50,
+            "bonus": 0,
+            "price": 5.79,
+            "originalPrice": 19.99
+          },
+          {
+            "amount": 100,
+            "bonus": 10,
+            "price": 9.99,
+            "originalPrice": 29.99
+          },
           {
             "amount": 300,
             "bonus": 30,
@@ -114,20 +158,51 @@
       }
     },
     "features": [
-      { "emoji": "⚡️", "text": "Delivery in:", "highlight": "27 seconds" },
-      { "emoji": "✅", "text": "Lifetime warranty" },
-      { "emoji": "💬", "text": "24/7 support" },
-      { "emoji": "🙋‍♂️", "text": "100% Real Users" },
-      { "emoji": "🟢", "text": "Very Active Users" },
-      { "emoji": "🚀", "text": "Improved Engagement" },
-      { "emoji": "🥇", "text": "The best quality on the market" },
-      { "emoji": "🔒", "text": "Payment in a single solution" },
-      { "emoji": "💳", "text": "Apple Pay, Google Pay and credit card" },
-      { "emoji": "🇮🇹", "text": "100% ITALIAN service" }
+      {
+        "emoji": "⚡️",
+        "text": "Delivery in:",
+        "highlight": "27 seconds"
+      },
+      {
+        "emoji": "✅",
+        "text": "Lifetime warranty"
+      },
+      {
+        "emoji": "💬",
+        "text": "24/7 support"
+      },
+      {
+        "emoji": "🙋‍♂️",
+        "text": "100% Real Users"
+      },
+      {
+        "emoji": "🟢",
+        "text": "Very Active Users"
+      },
+      {
+        "emoji": "🚀",
+        "text": "Improved Engagement"
+      },
+      {
+        "emoji": "🥇",
+        "text": "The best quality on the market"
+      },
+      {
+        "emoji": "🔒",
+        "text": "Payment in a single solution"
+      },
+      {
+        "emoji": "💳",
+        "text": "Apple Pay, Google Pay and credit card"
+      },
+      {
+        "emoji": "🇮🇹",
+        "text": "100% Italian Service"
+      }
     ]
   },
   "instagram-likes": {
-    "title": "Like Instagram (100% real) 🇮🇹",
+    "title": "Instagram Likes (100% real) 🇮🇹",
     "badge": "INSTAGRAM",
     "serviceType": "like",
     "liveDeliveries": [
@@ -136,31 +211,66 @@
         "action": "delivered",
         "time": "21 minutes ago"
       },
-      { "amount": "1000 like", "action": "consegnati", "time": "6 min fa" },
       {
-        "amount": "2500 follower",
-        "action": "consegnati",
-        "time": "32 min fa"
+        "amount": "1000 likes",
+        "action": "delivered",
+        "time": "6 min ago"
       },
-      { "amount": "500 follower", "action": "consegnati", "time": "5 min fa" },
       {
-        "amount": "1000 follower",
-        "action": "consegnati",
-        "time": "16 min fa"
+        "amount": "2500 followers",
+        "action": "delivered",
+        "time": "32 min ago"
       },
-      { "amount": "250 like", "action": "consegnati", "time": "3 min fa" },
-      { "amount": "100 follower", "action": "consegnati", "time": "20 min fa" },
-      { "amount": "5000 like", "action": "consegnati", "time": "13 min fa" }
+      {
+        "amount": "500 followers",
+        "action": "delivered",
+        "time": "5 min ago"
+      },
+      {
+        "amount": "1000 followers",
+        "action": "delivered",
+        "time": "16 min ago"
+      },
+      {
+        "amount": "250 likes",
+        "action": "delivered",
+        "time": "3 min ago"
+      },
+      {
+        "amount": "100 followers",
+        "action": "delivered",
+        "time": "20 min ago"
+      },
+      {
+        "amount": "5000 likes",
+        "action": "delivered",
+        "time": "13 min ago"
+      }
     ],
     "variants": {
       "european": {
-        "name": "Like Europeans",
+        "name": "European Likes",
         "flag": "/flags/eu.png",
         "features": ["Maximum quality", "Best Price Guaranteed"],
         "packages": [
-          { "amount": 100, "bonus": 0, "price": 2.49, "originalPrice": 9.99 },
-          { "amount": 250, "bonus": 25, "price": 4.99, "originalPrice": 19.99 },
-          { "amount": 500, "bonus": 50, "price": 8.99, "originalPrice": 29.99 },
+          {
+            "amount": 100,
+            "bonus": 0,
+            "price": 2.49,
+            "originalPrice": 9.99
+          },
+          {
+            "amount": 250,
+            "bonus": 25,
+            "price": 4.99,
+            "originalPrice": 19.99
+          },
+          {
+            "amount": 500,
+            "bonus": 50,
+            "price": 8.99,
+            "originalPrice": 29.99
+          },
           {
             "amount": 1000,
             "bonus": 100,
@@ -200,12 +310,22 @@
         ]
       },
       "italian": {
-        "name": "Like Italians",
+        "name": "Italian Likes",
         "flag": "/flags/italy.png",
         "features": ["Guaranteed Italian Likes", "Exclusively from us"],
         "packages": [
-          { "amount": 50, "bonus": 0, "price": 3.99, "originalPrice": 14.99 },
-          { "amount": 100, "bonus": 10, "price": 6.99, "originalPrice": 24.99 },
+          {
+            "amount": 50,
+            "bonus": 0,
+            "price": 3.99,
+            "originalPrice": 14.99
+          },
+          {
+            "amount": 100,
+            "bonus": 10,
+            "price": 6.99,
+            "originalPrice": 24.99
+          },
           {
             "amount": 250,
             "bonus": 25,
@@ -240,17 +360,51 @@
       }
     },
     "features": [
-      { "emoji": "👉", "text": "They can be split across multiple posts" },
-      { "emoji": "⚡️", "text": "Delivery in:", "highlight": "14 seconds" },
-      { "emoji": "✅", "text": "Lifetime warranty" },
-      { "emoji": "💬", "text": "24/7 support" },
-      { "emoji": "🙋‍♂️", "text": "100% Real Users" },
-      { "emoji": "🟢", "text": "Very Active Users" },
-      { "emoji": "🚀", "text": "Improved Engagement" },
-      { "emoji": "🥇", "text": "The best quality on the market" },
-      { "emoji": "🔒", "text": "Payment in a single solution" },
-      { "emoji": "💳", "text": "Apple Pay, Google Pay and credit card" },
-      { "emoji": "🇮🇹", "text": "100% ITALIAN service" }
+      {
+        "emoji": "👉",
+        "text": "They can be split across multiple posts"
+      },
+      {
+        "emoji": "⚡️",
+        "text": "Delivery in:",
+        "highlight": "14 seconds"
+      },
+      {
+        "emoji": "✅",
+        "text": "Lifetime warranty"
+      },
+      {
+        "emoji": "💬",
+        "text": "24/7 support"
+      },
+      {
+        "emoji": "🙋‍♂️",
+        "text": "100% Real Users"
+      },
+      {
+        "emoji": "🟢",
+        "text": "Very Active Users"
+      },
+      {
+        "emoji": "🚀",
+        "text": "Improved Engagement"
+      },
+      {
+        "emoji": "🥇",
+        "text": "The best quality on the market"
+      },
+      {
+        "emoji": "🔒",
+        "text": "Payment in a single solution"
+      },
+      {
+        "emoji": "💳",
+        "text": "Apple Pay, Google Pay and credit card"
+      },
+      {
+        "emoji": "🇮🇹",
+        "text": "100% Italian Service"
+      }
     ]
   },
   "instagram-views": {
@@ -263,13 +417,41 @@
         "action": "delivered",
         "time": "2 minutes ago"
       },
-      { "amount": "10000 views", "action": "consegnati", "time": "8 min fa" },
-      { "amount": "2500 views", "action": "consegnati", "time": "15 min fa" },
-      { "amount": "1000 views", "action": "consegnati", "time": "22 min fa" },
-      { "amount": "7500 views", "action": "consegnati", "time": "11 min fa" },
-      { "amount": "3000 views", "action": "consegnati", "time": "28 min fa" },
-      { "amount": "15000 views", "action": "consegnati", "time": "19 min fa" },
-      { "amount": "5000 views", "action": "consegnati", "time": "35 min fa" }
+      {
+        "amount": "10000 views",
+        "action": "delivered",
+        "time": "8 min ago"
+      },
+      {
+        "amount": "2500 views",
+        "action": "delivered",
+        "time": "15 min ago"
+      },
+      {
+        "amount": "1000 views",
+        "action": "delivered",
+        "time": "22 min ago"
+      },
+      {
+        "amount": "7500 views",
+        "action": "delivered",
+        "time": "11 min ago"
+      },
+      {
+        "amount": "3000 views",
+        "action": "delivered",
+        "time": "28 min ago"
+      },
+      {
+        "amount": "15000 views",
+        "action": "delivered",
+        "time": "19 min ago"
+      },
+      {
+        "amount": "5000 views",
+        "action": "delivered",
+        "time": "35 min ago"
+      }
     ],
     "variants": {
       "european": {
@@ -277,7 +459,12 @@
         "flag": "/flags/eu.png",
         "features": ["Real and Active Views", "Best Price Guaranteed"],
         "packages": [
-          { "amount": 1000, "bonus": 0, "price": 2.39, "originalPrice": 7.99 },
+          {
+            "amount": 1000,
+            "bonus": 0,
+            "price": 2.39,
+            "originalPrice": 7.99
+          },
           {
             "amount": 2500,
             "bonus": 250,
@@ -321,7 +508,12 @@
         "flag": "/flags/italy.png",
         "features": ["Real Italian Views", "100% from Italy 🇮🇹"],
         "packages": [
-          { "amount": 500, "bonus": 0, "price": 3.99, "originalPrice": 12.99 },
+          {
+            "amount": 500,
+            "bonus": 0,
+            "price": 3.99,
+            "originalPrice": 12.99
+          },
           {
             "amount": 1000,
             "bonus": 100,
@@ -350,16 +542,47 @@
       }
     },
     "features": [
-      { "emoji": "⚡️", "text": "Delivery in:", "highlight": "30 seconds" },
-      { "emoji": "✅", "text": "Lifetime warranty" },
-      { "emoji": "💬", "text": "24/7 support" },
-      { "emoji": "🙋‍♂️", "text": "100% Real Views" },
-      { "emoji": "🟢", "text": "Very Active Users" },
-      { "emoji": "🚀", "text": "Improved Engagement" },
-      { "emoji": "🥇", "text": "The best quality on the market" },
-      { "emoji": "🔒", "text": "Payment in a single solution" },
-      { "emoji": "💳", "text": "Apple Pay, Google Pay and credit card" },
-      { "emoji": "🇮🇹", "text": "100% ITALIAN service" }
+      {
+        "emoji": "⚡️",
+        "text": "Delivery in:",
+        "highlight": "30 seconds"
+      },
+      {
+        "emoji": "✅",
+        "text": "Lifetime warranty"
+      },
+      {
+        "emoji": "💬",
+        "text": "24/7 support"
+      },
+      {
+        "emoji": "🙋‍♂️",
+        "text": "100% Real Views"
+      },
+      {
+        "emoji": "🟢",
+        "text": "Very Active Users"
+      },
+      {
+        "emoji": "🚀",
+        "text": "Improved Engagement"
+      },
+      {
+        "emoji": "🥇",
+        "text": "The best quality on the market"
+      },
+      {
+        "emoji": "🔒",
+        "text": "Payment in a single solution"
+      },
+      {
+        "emoji": "💳",
+        "text": "Apple Pay, Google Pay and credit card"
+      },
+      {
+        "emoji": "🇮🇹",
+        "text": "100% Italian Service"
+      }
     ]
   },
   "tiktok-followers": {
@@ -373,16 +596,40 @@
         "time": "3 minutes ago"
       },
       {
-        "amount": "1500 follower",
-        "action": "consegnati",
-        "time": "12 min fa"
+        "amount": "1500 followers",
+        "action": "delivered",
+        "time": "12 min ago"
       },
-      { "amount": "400 like", "action": "consegnati", "time": "8 min fa" },
-      { "amount": "200 follower", "action": "consegnati", "time": "25 min fa" },
-      { "amount": "3000 views", "action": "consegnati", "time": "18 min fa" },
-      { "amount": "600 follower", "action": "consegnati", "time": "35 min fa" },
-      { "amount": "2000 like", "action": "consegnati", "time": "14 min fa" },
-      { "amount": "1200 follower", "action": "consegnati", "time": "28 min fa" }
+      {
+        "amount": "400 likes",
+        "action": "delivered",
+        "time": "8 min ago"
+      },
+      {
+        "amount": "200 followers",
+        "action": "delivered",
+        "time": "25 min ago"
+      },
+      {
+        "amount": "3000 views",
+        "action": "delivered",
+        "time": "18 min ago"
+      },
+      {
+        "amount": "600 followers",
+        "action": "delivered",
+        "time": "35 min ago"
+      },
+      {
+        "amount": "2000 likes",
+        "action": "delivered",
+        "time": "14 min ago"
+      },
+      {
+        "amount": "1200 followers",
+        "action": "delivered",
+        "time": "28 min ago"
+      }
     ],
     "variants": {
       "european": {
@@ -390,8 +637,18 @@
         "flag": "/flags/eu.png",
         "features": ["Real and Active Users", "Best Price Guaranteed"],
         "packages": [
-          { "amount": 100, "bonus": 0, "price": 3.79, "originalPrice": 12.99 },
-          { "amount": 250, "bonus": 25, "price": 7.99, "originalPrice": 24.99 },
+          {
+            "amount": 100,
+            "bonus": 0,
+            "price": 3.79,
+            "originalPrice": 12.99
+          },
+          {
+            "amount": 250,
+            "bonus": 25,
+            "price": 7.99,
+            "originalPrice": 24.99
+          },
           {
             "amount": 500,
             "bonus": 50,
@@ -429,8 +686,18 @@
         "flag": "/flags/italy.png",
         "features": ["Real and Active Users", "100% from Italy 🇮🇹"],
         "packages": [
-          { "amount": 50, "bonus": 0, "price": 4.49, "originalPrice": 19.99 },
-          { "amount": 100, "bonus": 10, "price": 8.99, "originalPrice": 34.99 },
+          {
+            "amount": 50,
+            "bonus": 0,
+            "price": 4.49,
+            "originalPrice": 19.99
+          },
+          {
+            "amount": 100,
+            "bonus": 10,
+            "price": 8.99,
+            "originalPrice": 34.99
+          },
           {
             "amount": 250,
             "bonus": 25,
@@ -453,16 +720,47 @@
       }
     },
     "features": [
-      { "emoji": "⚡️", "text": "Delivery in:", "highlight": "45 seconds" },
-      { "emoji": "✅", "text": "Lifetime warranty" },
-      { "emoji": "💬", "text": "24/7 support" },
-      { "emoji": "🙋‍♂️", "text": "100% Real Users" },
-      { "emoji": "🟢", "text": "Very Active Users" },
-      { "emoji": "🚀", "text": "Improved Engagement" },
-      { "emoji": "🥇", "text": "The best quality on the market" },
-      { "emoji": "🔒", "text": "Payment in a single solution" },
-      { "emoji": "💳", "text": "Apple Pay, Google Pay and credit card" },
-      { "emoji": "🇮🇹", "text": "100% ITALIAN service" }
+      {
+        "emoji": "⚡️",
+        "text": "Delivery in:",
+        "highlight": "45 seconds"
+      },
+      {
+        "emoji": "✅",
+        "text": "Lifetime warranty"
+      },
+      {
+        "emoji": "💬",
+        "text": "24/7 support"
+      },
+      {
+        "emoji": "🙋‍♂️",
+        "text": "100% Real Users"
+      },
+      {
+        "emoji": "🟢",
+        "text": "Very Active Users"
+      },
+      {
+        "emoji": "🚀",
+        "text": "Improved Engagement"
+      },
+      {
+        "emoji": "🥇",
+        "text": "The best quality on the market"
+      },
+      {
+        "emoji": "🔒",
+        "text": "Payment in a single solution"
+      },
+      {
+        "emoji": "💳",
+        "text": "Apple Pay, Google Pay and credit card"
+      },
+      {
+        "emoji": "🇮🇹",
+        "text": "100% Italian Service"
+      }
     ]
   },
   "tiktok-likes": {
@@ -475,13 +773,41 @@
         "action": "delivered",
         "time": "4 minutes ago"
       },
-      { "amount": "3000 like", "action": "consegnati", "time": "11 min fa" },
-      { "amount": "800 like", "action": "consegnati", "time": "18 min fa" },
-      { "amount": "2200 like", "action": "consegnati", "time": "25 min fa" },
-      { "amount": "5000 like", "action": "consegnati", "time": "7 min fa" },
-      { "amount": "1200 like", "action": "consegnati", "time": "33 min fa" },
-      { "amount": "4000 like", "action": "consegnati", "time": "16 min fa" },
-      { "amount": "900 like", "action": "consegnati", "time": "29 min fa" }
+      {
+        "amount": "3000 likes",
+        "action": "delivered",
+        "time": "11 min ago"
+      },
+      {
+        "amount": "800 likes",
+        "action": "delivered",
+        "time": "18 min ago"
+      },
+      {
+        "amount": "2200 likes",
+        "action": "delivered",
+        "time": "25 min ago"
+      },
+      {
+        "amount": "5000 likes",
+        "action": "delivered",
+        "time": "7 min ago"
+      },
+      {
+        "amount": "1200 likes",
+        "action": "delivered",
+        "time": "33 min ago"
+      },
+      {
+        "amount": "4000 likes",
+        "action": "delivered",
+        "time": "16 min ago"
+      },
+      {
+        "amount": "900 likes",
+        "action": "delivered",
+        "time": "29 min ago"
+      }
     ],
     "variants": {
       "european": {
@@ -489,8 +815,18 @@
         "flag": "/flags/eu.png",
         "features": ["Real and Active Likes", "Best Price Guaranteed"],
         "packages": [
-          { "amount": 100, "bonus": 0, "price": 2.79, "originalPrice": 9.99 },
-          { "amount": 250, "bonus": 25, "price": 5.99, "originalPrice": 19.99 },
+          {
+            "amount": 100,
+            "bonus": 0,
+            "price": 2.79,
+            "originalPrice": 9.99
+          },
+          {
+            "amount": 250,
+            "bonus": 25,
+            "price": 5.99,
+            "originalPrice": 19.99
+          },
           {
             "amount": 500,
             "bonus": 50,
@@ -528,8 +864,18 @@
         "flag": "/flags/italy.png",
         "features": ["Real Italian Likes", "100% from Italy 🇮🇹"],
         "packages": [
-          { "amount": 50, "bonus": 0, "price": 3.99, "originalPrice": 14.99 },
-          { "amount": 100, "bonus": 10, "price": 6.99, "originalPrice": 24.99 },
+          {
+            "amount": 50,
+            "bonus": 0,
+            "price": 3.99,
+            "originalPrice": 14.99
+          },
+          {
+            "amount": 100,
+            "bonus": 10,
+            "price": 6.99,
+            "originalPrice": 24.99
+          },
           {
             "amount": 250,
             "bonus": 25,
@@ -552,16 +898,47 @@
       }
     },
     "features": [
-      { "emoji": "⚡️", "text": "Delivery in:", "highlight": "25 seconds" },
-      { "emoji": "✅", "text": "Lifetime warranty" },
-      { "emoji": "💬", "text": "24/7 support" },
-      { "emoji": "🙋‍♂️", "text": "100% Real Users" },
-      { "emoji": "🟢", "text": "Very Active Users" },
-      { "emoji": "🚀", "text": "Improved Engagement" },
-      { "emoji": "🥇", "text": "The best quality on the market" },
-      { "emoji": "🔒", "text": "Payment in a single solution" },
-      { "emoji": "💳", "text": "Apple Pay, Google Pay and credit card" },
-      { "emoji": "🇮🇹", "text": "100% ITALIAN service" }
+      {
+        "emoji": "⚡️",
+        "text": "Delivery in:",
+        "highlight": "25 seconds"
+      },
+      {
+        "emoji": "✅",
+        "text": "Lifetime warranty"
+      },
+      {
+        "emoji": "💬",
+        "text": "24/7 support"
+      },
+      {
+        "emoji": "🙋‍♂️",
+        "text": "100% Real Users"
+      },
+      {
+        "emoji": "🟢",
+        "text": "Very Active Users"
+      },
+      {
+        "emoji": "🚀",
+        "text": "Improved Engagement"
+      },
+      {
+        "emoji": "🥇",
+        "text": "The best quality on the market"
+      },
+      {
+        "emoji": "🔒",
+        "text": "Payment in a single solution"
+      },
+      {
+        "emoji": "💳",
+        "text": "Apple Pay, Google Pay and credit card"
+      },
+      {
+        "emoji": "🇮🇹",
+        "text": "100% Italian Service"
+      }
     ]
   },
   "tiktok-views": {
@@ -574,13 +951,41 @@
         "action": "delivered",
         "time": "1 minute ago"
       },
-      { "amount": "25000 views", "action": "consegnati", "time": "9 min fa" },
-      { "amount": "5000 views", "action": "consegnati", "time": "17 min fa" },
-      { "amount": "15000 views", "action": "consegnati", "time": "24 min fa" },
-      { "amount": "50000 views", "action": "consegnati", "time": "6 min fa" },
-      { "amount": "8000 views", "action": "consegnati", "time": "31 min fa" },
-      { "amount": "20000 views", "action": "consegnati", "time": "13 min fa" },
-      { "amount": "12000 views", "action": "consegnati", "time": "27 min fa" }
+      {
+        "amount": "25000 views",
+        "action": "delivered",
+        "time": "9 min ago"
+      },
+      {
+        "amount": "5000 views",
+        "action": "delivered",
+        "time": "17 min ago"
+      },
+      {
+        "amount": "15000 views",
+        "action": "delivered",
+        "time": "24 min ago"
+      },
+      {
+        "amount": "50000 views",
+        "action": "delivered",
+        "time": "6 min ago"
+      },
+      {
+        "amount": "8000 views",
+        "action": "delivered",
+        "time": "31 min ago"
+      },
+      {
+        "amount": "20000 views",
+        "action": "delivered",
+        "time": "13 min ago"
+      },
+      {
+        "amount": "12000 views",
+        "action": "delivered",
+        "time": "27 min ago"
+      }
     ],
     "variants": {
       "european": {
@@ -588,7 +993,12 @@
         "flag": "/flags/eu.png",
         "features": ["Real and Active Views", "Best Price Guaranteed"],
         "packages": [
-          { "amount": 1000, "bonus": 0, "price": 2.99, "originalPrice": 9.99 },
+          {
+            "amount": 1000,
+            "bonus": 0,
+            "price": 2.99,
+            "originalPrice": 9.99
+          },
           {
             "amount": 2500,
             "bonus": 250,
@@ -632,7 +1042,12 @@
         "flag": "/flags/italy.png",
         "features": ["Real Italian Views", "100% from Italy 🇮🇹"],
         "packages": [
-          { "amount": 500, "bonus": 0, "price": 4.49, "originalPrice": 16.99 },
+          {
+            "amount": 500,
+            "bonus": 0,
+            "price": 4.49,
+            "originalPrice": 16.99
+          },
           {
             "amount": 1000,
             "bonus": 100,
@@ -661,16 +1076,47 @@
       }
     },
     "features": [
-      { "emoji": "⚡️", "text": "Delivery in:", "highlight": "20 seconds" },
-      { "emoji": "✅", "text": "Lifetime warranty" },
-      { "emoji": "💬", "text": "24/7 support" },
-      { "emoji": "🙋‍♂️", "text": "100% Real Views" },
-      { "emoji": "🟢", "text": "Very Active Users" },
-      { "emoji": "🚀", "text": "Improved Engagement" },
-      { "emoji": "🥇", "text": "The best quality on the market" },
-      { "emoji": "🔒", "text": "Payment in a single solution" },
-      { "emoji": "💳", "text": "Apple Pay, Google Pay and credit card" },
-      { "emoji": "🇮🇹", "text": "100% ITALIAN service" }
+      {
+        "emoji": "⚡️",
+        "text": "Delivery in:",
+        "highlight": "20 seconds"
+      },
+      {
+        "emoji": "✅",
+        "text": "Lifetime warranty"
+      },
+      {
+        "emoji": "💬",
+        "text": "24/7 support"
+      },
+      {
+        "emoji": "🙋‍♂️",
+        "text": "100% Real Views"
+      },
+      {
+        "emoji": "🟢",
+        "text": "Very Active Users"
+      },
+      {
+        "emoji": "🚀",
+        "text": "Improved Engagement"
+      },
+      {
+        "emoji": "🥇",
+        "text": "The best quality on the market"
+      },
+      {
+        "emoji": "🔒",
+        "text": "Payment in a single solution"
+      },
+      {
+        "emoji": "💳",
+        "text": "Apple Pay, Google Pay and credit card"
+      },
+      {
+        "emoji": "🇮🇹",
+        "text": "100% Italian Service"
+      }
     ]
   },
   "youtube-subscribers": {
@@ -685,46 +1131,71 @@
       },
       {
         "amount": "250 subscribers",
-        "action": "consegnati",
-        "time": "14 min fa"
+        "action": "delivered",
+        "time": "14 min ago"
       },
       {
         "amount": "500 subscribers",
-        "action": "consegnati",
-        "time": "21 min fa"
+        "action": "delivered",
+        "time": "21 min ago"
       },
       {
         "amount": "100 subscribers",
-        "action": "consegnati",
-        "time": "7 min fa"
+        "action": "delivered",
+        "time": "7 min ago"
       },
       {
         "amount": "750 subscribers",
-        "action": "consegnati",
-        "time": "30 min fa"
+        "action": "delivered",
+        "time": "30 min ago"
       },
       {
         "amount": "300 subscribers",
-        "action": "consegnati",
-        "time": "12 min fa"
+        "action": "delivered",
+        "time": "12 min ago"
       },
       {
         "amount": "600 subscribers",
-        "action": "consegnati",
-        "time": "26 min fa"
+        "action": "delivered",
+        "time": "26 min ago"
       },
       {
         "amount": "150 subscribers",
-        "action": "consegnati",
-        "time": "38 min fa"
+        "action": "delivered",
+        "time": "38 min ago"
       }
     ],
     "packages": [
-      { "amount": 100, "bonus": 0, "price": 3.89, "originalPrice": 9.99 },
-      { "amount": 250, "bonus": 25, "price": 8.99, "originalPrice": 24.99 },
-      { "amount": 500, "bonus": 50, "price": 16.99, "originalPrice": 44.99 },
-      { "amount": 1000, "bonus": 100, "price": 31.99, "originalPrice": 79.99 },
-      { "amount": 2500, "bonus": 250, "price": 74.99, "originalPrice": 179.99 },
+      {
+        "amount": 100,
+        "bonus": 0,
+        "price": 3.89,
+        "originalPrice": 9.99
+      },
+      {
+        "amount": 250,
+        "bonus": 25,
+        "price": 8.99,
+        "originalPrice": 24.99
+      },
+      {
+        "amount": 500,
+        "bonus": 50,
+        "price": 16.99,
+        "originalPrice": 44.99
+      },
+      {
+        "amount": 1000,
+        "bonus": 100,
+        "price": 31.99,
+        "originalPrice": 79.99
+      },
+      {
+        "amount": 2500,
+        "bonus": 250,
+        "price": 74.99,
+        "originalPrice": 179.99
+      },
       {
         "amount": 5000,
         "bonus": 500,
@@ -745,16 +1216,47 @@
       }
     ],
     "features": [
-      { "emoji": "⚡️", "text": "Delivery in:", "highlight": "60 seconds" },
-      { "emoji": "✅", "text": "Lifetime warranty" },
-      { "emoji": "💬", "text": "24/7 support" },
-      { "emoji": "🙋‍♂️", "text": "100% Real Users" },
-      { "emoji": "🟢", "text": "Very Active Users" },
-      { "emoji": "🚀", "text": "Improved Engagement" },
-      { "emoji": "🥇", "text": "The best quality on the market" },
-      { "emoji": "🔒", "text": "Payment in a single solution" },
-      { "emoji": "💳", "text": "Apple Pay, Google Pay and credit card" },
-      { "emoji": "🇮🇹", "text": "100% ITALIAN service" }
+      {
+        "emoji": "⚡️",
+        "text": "Delivery in:",
+        "highlight": "60 seconds"
+      },
+      {
+        "emoji": "✅",
+        "text": "Lifetime warranty"
+      },
+      {
+        "emoji": "💬",
+        "text": "24/7 support"
+      },
+      {
+        "emoji": "🙋‍♂️",
+        "text": "100% Real Users"
+      },
+      {
+        "emoji": "🟢",
+        "text": "Very Active Users"
+      },
+      {
+        "emoji": "🚀",
+        "text": "Improved Engagement"
+      },
+      {
+        "emoji": "🥇",
+        "text": "The best quality on the market"
+      },
+      {
+        "emoji": "🔒",
+        "text": "Payment in a single solution"
+      },
+      {
+        "emoji": "💳",
+        "text": "Apple Pay, Google Pay and credit card"
+      },
+      {
+        "emoji": "🇮🇹",
+        "text": "100% Italian Service"
+      }
     ]
   },
   "youtube-views": {
@@ -767,18 +1269,61 @@
         "action": "delivered",
         "time": "3 minutes ago"
       },
-      { "amount": "10000 views", "action": "consegnati", "time": "10 min fa" },
-      { "amount": "2500 views", "action": "consegnati", "time": "19 min fa" },
-      { "amount": "15000 views", "action": "consegnati", "time": "8 min fa" },
-      { "amount": "25000 views", "action": "consegnati", "time": "26 min fa" },
-      { "amount": "7500 views", "action": "consegnati", "time": "15 min fa" },
-      { "amount": "50000 views", "action": "consegnati", "time": "32 min fa" },
-      { "amount": "12000 views", "action": "consegnati", "time": "23 min fa" }
+      {
+        "amount": "10000 views",
+        "action": "delivered",
+        "time": "10 min ago"
+      },
+      {
+        "amount": "2500 views",
+        "action": "delivered",
+        "time": "19 min ago"
+      },
+      {
+        "amount": "15000 views",
+        "action": "delivered",
+        "time": "8 min ago"
+      },
+      {
+        "amount": "25000 views",
+        "action": "delivered",
+        "time": "26 min ago"
+      },
+      {
+        "amount": "7500 views",
+        "action": "delivered",
+        "time": "15 min ago"
+      },
+      {
+        "amount": "50000 views",
+        "action": "delivered",
+        "time": "32 min ago"
+      },
+      {
+        "amount": "12000 views",
+        "action": "delivered",
+        "time": "23 min ago"
+      }
     ],
     "packages": [
-      { "amount": 1000, "bonus": 0, "price": 4.99, "originalPrice": 14.99 },
-      { "amount": 2500, "bonus": 250, "price": 11.99, "originalPrice": 34.99 },
-      { "amount": 5000, "bonus": 500, "price": 21.99, "originalPrice": 59.99 },
+      {
+        "amount": 1000,
+        "bonus": 0,
+        "price": 4.99,
+        "originalPrice": 14.99
+      },
+      {
+        "amount": 2500,
+        "bonus": 250,
+        "price": 11.99,
+        "originalPrice": 34.99
+      },
+      {
+        "amount": 5000,
+        "bonus": 500,
+        "price": 21.99,
+        "originalPrice": 59.99
+      },
       {
         "amount": 10000,
         "bonus": 1000,
@@ -805,51 +1350,175 @@
       }
     ],
     "features": [
-      { "emoji": "⚡️", "text": "Delivery in:", "highlight": "40 seconds" },
-      { "emoji": "✅", "text": "Lifetime warranty" },
-      { "emoji": "💬", "text": "24/7 support" },
-      { "emoji": "🙋‍♂️", "text": "100% Real Views" },
-      { "emoji": "🟢", "text": "Very Active Users" },
-      { "emoji": "🚀", "text": "Improved Engagement" },
-      { "emoji": "🥇", "text": "The best quality on the market" },
-      { "emoji": "🔒", "text": "Payment in a single solution" },
-      { "emoji": "💳", "text": "Apple Pay, Google Pay and credit card" },
-      { "emoji": "🇮🇹", "text": "100% ITALIAN service" }
+      {
+        "emoji": "⚡️",
+        "text": "Delivery in:",
+        "highlight": "40 seconds"
+      },
+      {
+        "emoji": "✅",
+        "text": "Lifetime warranty"
+      },
+      {
+        "emoji": "💬",
+        "text": "24/7 support"
+      },
+      {
+        "emoji": "🙋‍♂️",
+        "text": "100% Real Views"
+      },
+      {
+        "emoji": "🟢",
+        "text": "Very Active Users"
+      },
+      {
+        "emoji": "🚀",
+        "text": "Improved Engagement"
+      },
+      {
+        "emoji": "🥇",
+        "text": "The best quality on the market"
+      },
+      {
+        "emoji": "🔒",
+        "text": "Payment in a single solution"
+      },
+      {
+        "emoji": "💳",
+        "text": "Apple Pay, Google Pay and credit card"
+      },
+      {
+        "emoji": "🇮🇹",
+        "text": "100% Italian Service"
+      }
     ]
   },
   "youtube-likes": {
-    "title": "I Like YouTube - 100% Real & Active 🎵",
+    "title": "YouTube Likes - 100% Real & Active 🎵",
     "badge": "YOUTUBE",
     "serviceType": "like",
     "liveDeliveries": [
-      { "amount": "500 likes", "action": "delivered", "time": "6 minutes ago" },
-      { "amount": "1200 like", "action": "consegnati", "time": "13 min fa" },
-      { "amount": "800 like", "action": "consegnati", "time": "20 min fa" },
-      { "amount": "2000 like", "action": "consegnati", "time": "4 min fa" },
-      { "amount": "1500 like", "action": "consegnati", "time": "27 min fa" },
-      { "amount": "600 like", "action": "consegnati", "time": "11 min fa" },
-      { "amount": "3000 like", "action": "consegnati", "time": "34 min fa" },
-      { "amount": "900 like", "action": "consegnati", "time": "18 min fa" }
+      {
+        "amount": "500 likes",
+        "action": "delivered",
+        "time": "6 minutes ago"
+      },
+      {
+        "amount": "1200 likes",
+        "action": "delivered",
+        "time": "13 min ago"
+      },
+      {
+        "amount": "800 likes",
+        "action": "delivered",
+        "time": "20 min ago"
+      },
+      {
+        "amount": "2000 likes",
+        "action": "delivered",
+        "time": "4 min ago"
+      },
+      {
+        "amount": "1500 likes",
+        "action": "delivered",
+        "time": "27 min ago"
+      },
+      {
+        "amount": "600 likes",
+        "action": "delivered",
+        "time": "11 min ago"
+      },
+      {
+        "amount": "3000 likes",
+        "action": "delivered",
+        "time": "34 min ago"
+      },
+      {
+        "amount": "900 likes",
+        "action": "delivered",
+        "time": "18 min ago"
+      }
     ],
     "packages": [
-      { "amount": 100, "bonus": 0, "price": 3.49, "originalPrice": 12.99 },
-      { "amount": 250, "bonus": 25, "price": 7.99, "originalPrice": 24.99 },
-      { "amount": 500, "bonus": 50, "price": 14.99, "originalPrice": 44.99 },
-      { "amount": 1000, "bonus": 100, "price": 27.99, "originalPrice": 79.99 },
-      { "amount": 2500, "bonus": 250, "price": 64.99, "originalPrice": 169.99 },
-      { "amount": 5000, "bonus": 500, "price": 119.99, "originalPrice": 299.99 }
+      {
+        "amount": 100,
+        "bonus": 0,
+        "price": 3.49,
+        "originalPrice": 12.99
+      },
+      {
+        "amount": 250,
+        "bonus": 25,
+        "price": 7.99,
+        "originalPrice": 24.99
+      },
+      {
+        "amount": 500,
+        "bonus": 50,
+        "price": 14.99,
+        "originalPrice": 44.99
+      },
+      {
+        "amount": 1000,
+        "bonus": 100,
+        "price": 27.99,
+        "originalPrice": 79.99
+      },
+      {
+        "amount": 2500,
+        "bonus": 250,
+        "price": 64.99,
+        "originalPrice": 169.99
+      },
+      {
+        "amount": 5000,
+        "bonus": 500,
+        "price": 119.99,
+        "originalPrice": 299.99
+      }
     ],
     "features": [
-      { "emoji": "⚡️", "text": "Delivery in:", "highlight": "35 seconds" },
-      { "emoji": "✅", "text": "Lifetime warranty" },
-      { "emoji": "💬", "text": "24/7 support" },
-      { "emoji": "🙋‍♂️", "text": "100% Real Users" },
-      { "emoji": "🟢", "text": "Very Active Users" },
-      { "emoji": "🚀", "text": "Improved Engagement" },
-      { "emoji": "🥇", "text": "The best quality on the market" },
-      { "emoji": "🔒", "text": "Payment in a single solution" },
-      { "emoji": "💳", "text": "Apple Pay, Google Pay and credit card" },
-      { "emoji": "🇮🇹", "text": "100% ITALIAN service" }
+      {
+        "emoji": "⚡️",
+        "text": "Delivery in:",
+        "highlight": "35 seconds"
+      },
+      {
+        "emoji": "✅",
+        "text": "Lifetime warranty"
+      },
+      {
+        "emoji": "💬",
+        "text": "24/7 support"
+      },
+      {
+        "emoji": "🙋‍♂️",
+        "text": "100% Real Users"
+      },
+      {
+        "emoji": "🟢",
+        "text": "Very Active Users"
+      },
+      {
+        "emoji": "🚀",
+        "text": "Improved Engagement"
+      },
+      {
+        "emoji": "🥇",
+        "text": "The best quality on the market"
+      },
+      {
+        "emoji": "🔒",
+        "text": "Payment in a single solution"
+      },
+      {
+        "emoji": "💳",
+        "text": "Apple Pay, Google Pay and credit card"
+      },
+      {
+        "emoji": "🇮🇹",
+        "text": "100% Italian Service"
+      }
     ]
   },
   "facebook-followers": {
@@ -862,77 +1531,250 @@
         "action": "delivered",
         "time": "5 minutes ago"
       },
-      { "amount": "400 follower", "action": "consegnati", "time": "16 min fa" },
-      { "amount": "800 follower", "action": "consegnati", "time": "23 min fa" },
-      { "amount": "200 follower", "action": "consegnati", "time": "7 min fa" },
       {
-        "amount": "1200 follower",
-        "action": "consegnati",
-        "time": "31 min fa"
+        "amount": "400 followers",
+        "action": "delivered",
+        "time": "16 min ago"
       },
-      { "amount": "600 follower", "action": "consegnati", "time": "14 min fa" },
-      { "amount": "350 follower", "action": "consegnati", "time": "28 min fa" },
-      { "amount": "1500 follower", "action": "consegnati", "time": "36 min fa" }
+      {
+        "amount": "800 followers",
+        "action": "delivered",
+        "time": "23 min ago"
+      },
+      {
+        "amount": "200 followers",
+        "action": "delivered",
+        "time": "7 min ago"
+      },
+      {
+        "amount": "1200 followers",
+        "action": "delivered",
+        "time": "31 min ago"
+      },
+      {
+        "amount": "600 followers",
+        "action": "delivered",
+        "time": "14 min ago"
+      },
+      {
+        "amount": "350 followers",
+        "action": "delivered",
+        "time": "28 min ago"
+      },
+      {
+        "amount": "1500 followers",
+        "action": "delivered",
+        "time": "36 min ago"
+      }
     ],
     "packages": [
-      { "amount": 100, "bonus": 0, "price": 8.99, "originalPrice": 19.99 },
-      { "amount": 250, "bonus": 25, "price": 18.99, "originalPrice": 44.99 },
-      { "amount": 500, "bonus": 50, "price": 34.99, "originalPrice": 79.99 },
-      { "amount": 1000, "bonus": 100, "price": 64.99, "originalPrice": 149.99 },
+      {
+        "amount": 100,
+        "bonus": 0,
+        "price": 8.99,
+        "originalPrice": 19.99
+      },
+      {
+        "amount": 250,
+        "bonus": 25,
+        "price": 18.99,
+        "originalPrice": 44.99
+      },
+      {
+        "amount": 500,
+        "bonus": 50,
+        "price": 34.99,
+        "originalPrice": 79.99
+      },
+      {
+        "amount": 1000,
+        "bonus": 100,
+        "price": 64.99,
+        "originalPrice": 149.99
+      },
       {
         "amount": 2500,
         "bonus": 250,
         "price": 149.99,
         "originalPrice": 329.99
       },
-      { "amount": 5000, "bonus": 500, "price": 279.99, "originalPrice": 599.99 }
+      {
+        "amount": 5000,
+        "bonus": 500,
+        "price": 279.99,
+        "originalPrice": 599.99
+      }
     ],
     "features": [
-      { "emoji": "⚡️", "text": "Delivery in:", "highlight": "50 seconds" },
-      { "emoji": "✅", "text": "Lifetime warranty" },
-      { "emoji": "💬", "text": "24/7 support" },
-      { "emoji": "🙋‍♂️", "text": "100% Real Users" },
-      { "emoji": "🟢", "text": "Very Active Users" },
-      { "emoji": "🚀", "text": "Improved Engagement" },
-      { "emoji": "🥇", "text": "The best quality on the market" },
-      { "emoji": "🔒", "text": "Payment in a single solution" },
-      { "emoji": "💳", "text": "Apple Pay, Google Pay and credit card" },
-      { "emoji": "🇮🇹", "text": "100% ITALIAN service" }
+      {
+        "emoji": "⚡️",
+        "text": "Delivery in:",
+        "highlight": "50 seconds"
+      },
+      {
+        "emoji": "✅",
+        "text": "Lifetime warranty"
+      },
+      {
+        "emoji": "💬",
+        "text": "24/7 support"
+      },
+      {
+        "emoji": "🙋‍♂️",
+        "text": "100% Real Users"
+      },
+      {
+        "emoji": "🟢",
+        "text": "Very Active Users"
+      },
+      {
+        "emoji": "🚀",
+        "text": "Improved Engagement"
+      },
+      {
+        "emoji": "🥇",
+        "text": "The best quality on the market"
+      },
+      {
+        "emoji": "🔒",
+        "text": "Payment in a single solution"
+      },
+      {
+        "emoji": "💳",
+        "text": "Apple Pay, Google Pay and credit card"
+      },
+      {
+        "emoji": "🇮🇹",
+        "text": "100% Italian Service"
+      }
     ]
   },
   "facebook-post-likes": {
-    "title": "FB - Like the Post - 100% Real & Active 🎵",
+    "title": "Facebook Post Likes - 100% Real & Active 🎵",
     "badge": "FACEBOOK",
     "serviceType": "like",
     "liveDeliveries": [
-      { "amount": "750 likes", "action": "delivered", "time": "5 minutes ago" },
-      { "amount": "1500 like", "action": "consegnati", "time": "12 min fa" },
-      { "amount": "400 like", "action": "consegnati", "time": "19 min fa" },
-      { "amount": "2200 like", "action": "consegnati", "time": "6 min fa" },
-      { "amount": "900 like", "action": "consegnati", "time": "25 min fa" },
-      { "amount": "1800 like", "action": "consegnati", "time": "13 min fa" },
-      { "amount": "600 like", "action": "consegnati", "time": "30 min fa" },
-      { "amount": "3000 like", "action": "consegnati", "time": "17 min fa" }
+      {
+        "amount": "750 likes",
+        "action": "delivered",
+        "time": "5 minutes ago"
+      },
+      {
+        "amount": "1500 likes",
+        "action": "delivered",
+        "time": "12 min ago"
+      },
+      {
+        "amount": "400 likes",
+        "action": "delivered",
+        "time": "19 min ago"
+      },
+      {
+        "amount": "2200 likes",
+        "action": "delivered",
+        "time": "6 min ago"
+      },
+      {
+        "amount": "900 likes",
+        "action": "delivered",
+        "time": "25 min ago"
+      },
+      {
+        "amount": "1800 likes",
+        "action": "delivered",
+        "time": "13 min ago"
+      },
+      {
+        "amount": "600 likes",
+        "action": "delivered",
+        "time": "30 min ago"
+      },
+      {
+        "amount": "3000 likes",
+        "action": "delivered",
+        "time": "17 min ago"
+      }
     ],
     "packages": [
-      { "amount": 100, "bonus": 0, "price": 2.99, "originalPrice": 11.99 },
-      { "amount": 250, "bonus": 25, "price": 6.99, "originalPrice": 24.99 },
-      { "amount": 500, "bonus": 50, "price": 12.99, "originalPrice": 44.99 },
-      { "amount": 1000, "bonus": 100, "price": 23.99, "originalPrice": 79.99 },
-      { "amount": 2500, "bonus": 250, "price": 54.99, "originalPrice": 169.99 },
-      { "amount": 5000, "bonus": 500, "price": 99.99, "originalPrice": 299.99 }
+      {
+        "amount": 100,
+        "bonus": 0,
+        "price": 2.99,
+        "originalPrice": 11.99
+      },
+      {
+        "amount": 250,
+        "bonus": 25,
+        "price": 6.99,
+        "originalPrice": 24.99
+      },
+      {
+        "amount": 500,
+        "bonus": 50,
+        "price": 12.99,
+        "originalPrice": 44.99
+      },
+      {
+        "amount": 1000,
+        "bonus": 100,
+        "price": 23.99,
+        "originalPrice": 79.99
+      },
+      {
+        "amount": 2500,
+        "bonus": 250,
+        "price": 54.99,
+        "originalPrice": 169.99
+      },
+      {
+        "amount": 5000,
+        "bonus": 500,
+        "price": 99.99,
+        "originalPrice": 299.99
+      }
     ],
     "features": [
-      { "emoji": "⚡️", "text": "Delivery in:", "highlight": "30 seconds" },
-      { "emoji": "✅", "text": "Lifetime warranty" },
-      { "emoji": "💬", "text": "24/7 support" },
-      { "emoji": "🙋‍♂️", "text": "100% Real Users" },
-      { "emoji": "🟢", "text": "Very Active Users" },
-      { "emoji": "🚀", "text": "Improved Engagement" },
-      { "emoji": "🥇", "text": "The best quality on the market" },
-      { "emoji": "🔒", "text": "Payment in a single solution" },
-      { "emoji": "💳", "text": "Apple Pay, Google Pay and credit card" },
-      { "emoji": "🇮🇹", "text": "100% ITALIAN service" }
+      {
+        "emoji": "⚡️",
+        "text": "Delivery in:",
+        "highlight": "30 seconds"
+      },
+      {
+        "emoji": "✅",
+        "text": "Lifetime warranty"
+      },
+      {
+        "emoji": "💬",
+        "text": "24/7 support"
+      },
+      {
+        "emoji": "🙋‍♂️",
+        "text": "100% Real Users"
+      },
+      {
+        "emoji": "🟢",
+        "text": "Very Active Users"
+      },
+      {
+        "emoji": "🚀",
+        "text": "Improved Engagement"
+      },
+      {
+        "emoji": "🥇",
+        "text": "The best quality on the market"
+      },
+      {
+        "emoji": "🔒",
+        "text": "Payment in a single solution"
+      },
+      {
+        "emoji": "💳",
+        "text": "Apple Pay, Google Pay and credit card"
+      },
+      {
+        "emoji": "🇮🇹",
+        "text": "100% Italian Service"
+      }
     ]
   }
 }

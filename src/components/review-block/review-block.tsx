@@ -84,13 +84,15 @@ export function ReviewBlock() {
     <section
       data-aos='fade-up'
       id='reviewBlock'
-      className='mt-12 px-12 py-20 aos-init aos-animate' // Removed bg-[#FAFAFA]
-      style={{
-        background:
-          'radial-gradient(56.8% 50% at 50% 50%, #ffeccc 0, hsla(0, 0%, 100%, 0) 100%)',
-      }} // Applied gradient to section
+      className='mt-12 px-12 py-20 aos-init aos-animate bg-[#FAFAFA]'
     >
-      <div className='container space-y-2'>
+      <div
+        className='container space-y-2'
+        style={{
+          background:
+            'radial-gradient(56.8% 50% at 50% 50%, #ffeccc 0, hsla(0, 0%, 100%, 0) 100%)',
+        }}
+      >
         {/* Hidden section (as per original HTML) */}
         <div className='space-y-2 hidden'>
           <div className='flex justify-center'>

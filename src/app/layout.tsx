@@ -1,3 +1,4 @@
+import { AOSInit } from '@/components/aos-init';
 import { Footer } from '@/components/common/Footer';
 import Header from '@/components/common/Header';
 import { FixedBottomCTA } from '@/components/fixed-bottom-cta';
@@ -37,6 +38,7 @@ export default async function RootLayout({
       <body
         className={`relative flex flex-col ${geistSans.variable} ${geistMono.variable} font-sans min-h-screen`}
       >
+        <AOSInit />
         <NextIntlClientProvider>
           <Header />
           {children}

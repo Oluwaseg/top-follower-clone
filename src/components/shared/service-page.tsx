@@ -113,7 +113,7 @@ export function ServicePage({
   const badgeStyles = getBadgeStyles(serviceData.badge);
 
   return (
-    <div className='min-h-screen bg-gray-50'>
+    <div className='min-h-screen bg-white'>
       {/* Hero Section */}
       <div className='flex justify-center px-6 py-10 relative'>
         {/* Background Gradient */}

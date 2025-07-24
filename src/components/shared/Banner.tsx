@@ -69,7 +69,7 @@ export function Banner() {
             width={50}
             height={36}
             className='hidden text-transparent relative left-[-5px] top-[-12px] saturate-150'
-            src='/banner-confetti.png'
+            src='/banner-confetti.webp'
             style={{
               color: 'transparent',
               transform: 'rotateY(180deg)',
