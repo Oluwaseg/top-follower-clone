@@ -1,11 +1,11 @@
 {
   "navbar": {
-    "brand": "Sito Senpai",
-    "about": "Informazioni",
+    "brand": "TopFollower",
+    "about": "Chi siamo",
     "instagram": "Instagram",
     "tiktok": "TikTok",
     "contacts": "Contatti",
-    "faq": "Domande frequenti",
+    "faq": "FAQ",
     "our_services": "I nostri servizi",
     "useful_links": "Link utili"
   },
@@ -16,53 +16,26 @@
     "facebook": "Facebook"
   },
   "services": {
-    "instagram_followers": "Follower di Instagram",
-    "italian_instagram_followers": "Follower italiani di Instagram 🇮🇹",
-    "like_instagram": "Mi piace su Instagram",
+    "instagram_followers": "Follower Instagram",
+    "italian_instagram_followers": "Follower italiani Instagram 🇮🇹",
+    "like_instagram": "Like Instagram",
     "instagram_views": "Visualizzazioni Instagram",
-    "tiktok_followers": "Follower di TikTok",
-    "italian_tiktok_followers": "Follower italiani di TikTok 🇮🇹",
-    "like_tiktok": "Mi piace su TikTok",
+    "tiktok_followers": "Follower TikTok",
+    "italian_tiktok_followers": "Follower italiani TikTok 🇮🇹",
+    "like_tiktok": "Like TikTok",
     "tiktok_views": "Visualizzazioni TikTok",
     "youtube_subscribers": "Iscritti YouTube",
     "youtube_views": "Visualizzazioni YouTube",
-    "like_youtube": "Mi piace su YouTube",
-    "facebook_followers": "Follower di Facebook",
-    "facebook_post_likes": "Mi piace al post di Facebook"
-  },
-  "banner": {
-    "special_offer": "Offerta speciale",
-    "discount": "5% DI SCONTO, CODICE: TOP5",
-    "hours": "ore",
-    "min": "min",
-    "sec": "sec"
-  },
-  "cart": {
-    "your_cart": "Il tuo carrello",
-    "empty": "Il tuo carrello è completamente vuoto...",
-    "choose": "Dovresti scegliere qualcosa di bello per il tuo profilo. 🤷",
-    "back_to_shop": "Torna al negozio"
-  },
-  "footer": {
-    "slogan": "Uno strumento online moderno per aumentare la popolarità dei tuoi social network.",
-    "all_services_working": "Tutti i servizi funzionano",
-    "our_services": "I nostri servizi",
-    "useful_links": "Link utili",
-    "contact_us": "Contattaci",
-    "reviews": "Recensioni",
-    "terms": "Termini e condizioni",
-    "privacy": "Privacy",
-    "contacts": "Contatti",
-    "terms_and_conditions": "Termini e condizioni",
-    "privacy_policy": "Politica sulla privacy",
-    "copyright": "© 2025 TopFollower - Tutti i diritti riservati."
+    "like_youtube": "Like YouTube",
+    "facebook_followers": "Follower Facebook",
+    "facebook_post_likes": "Like post Facebook"
   },
   "hero": {
-    "main_heading": "Ottieni follower reali e attivi <span class='text-orange-500'>garantiti in pochi secondi!</span>",
+    "main_heading": "Ottieni follower reali e attivi <highlight>garantiti in pochi secondi!</highlight>",
     "subheading": "Solo la migliore qualità. 100% senza rischi e completamente anonimo.",
     "features": {
       "immediate_delivery": "Consegna immediata",
-      "satisfaction": "Soddisfazione 100% garantita o rimborso",
+      "satisfaction": "100% Soddisfazione garantita o rimborso",
       "best_quality": "La migliore qualità sul mercato",
       "payment_methods": "Apple Pay, Google Pay e carta di credito",
       "italian_service": "Servizio 100% ITALIANO"
@@ -77,29 +50,192 @@
     "sec": "sec"
   },
   "service": {
-    "amount": "Quantità :",
+    "amount": "Quantità:",
     "save": "Risparmia",
     "free": "gratis",
     "continue": "Continua",
-    "delivery_in": "Consegna in:",
-    "lifetime_warranty": "Garanzia a vita",
-    "support": "Supporto 24/7",
-    "real_users": "100% Utenti reali",
-    "real_views": "100% Visualizzazioni reali",
-    "very_active": "Utenti molto attivi",
-    "improved_engagement": "Maggiore coinvolgimento",
-    "best_quality": "La migliore qualità sul mercato",
-    "payment_solution": "Pagamento in un'unica soluzione",
-    "payment_methods": "Apple Pay, Google Pay e carta di credito",
-    "italian_service": "Servizio 100% italiano",
     "continue_btn": "Continua",
     "savings": "Risparmia",
     "package_free": "+{bonus} gratis",
-    "real_active_users": "Utenti reali e attivi",
-    "best_price": "Miglior prezzo garantito",
-    "italian_followers": "Follower italiani",
-    "italian_only": "100% dall'Italia 🇮🇹",
-    "followers": "follower",
-    "european_followers": "Follower europei"
+    "type": {
+      "followers": "follower",
+      "like": "like",
+      "views": "visualizzazioni",
+      "subscribers": "iscritti"
+    },
+    "badge": {
+      "instagram": "INSTAGRAM",
+      "tiktok": "TIKTOK",
+      "youtube": "YOUTUBE",
+      "facebook": "FACEBOOK"
+    },
+    "title": {
+      "instagram_followers": "Ottieni follower reali e attivi <highlight>garantiti in pochi secondi!</highlight>",
+      "instagram_likes": "Like Instagram (100% reali) 🇮🇹",
+      "instagram_views": "Visualizzazioni Instagram - 100% reali e attive 🇮🇹",
+      "tiktok_followers": "Follower TikTok - 100% reali e attivi 🇮🇹",
+      "tiktok_likes": "Like TikTok - 100% reali e attivi 🇮🇹",
+      "tiktok_views": "Visualizzazioni TikTok - 100% reali e attive 🇮🇹",
+      "youtube_subscribers": "Iscritti YouTube - 100% reali e attivi 🎵",
+      "youtube_views": "Visualizzazioni YouTube - 100% reali e attive 🎵",
+      "youtube_likes": "Like YouTube - 100% reali e attivi 🎵",
+      "facebook_followers": "Follower Facebook",
+      "facebook_post_likes": "Like post Facebook - 100% reali e attivi 🎵"
+    },
+    "variant": {
+      "european_followers": "Follower europei",
+      "italian_followers": "Follower italiani",
+      "european_likes": "Like europei",
+      "italian_likes": "Like italiani",
+      "european_views": "Visualizzazioni europee",
+      "italian_views": "Visualizzazioni italiane"
+    },
+    "features": {
+      "delivery_in": "Consegna in:",
+      "lifetime_warranty": "Garanzia a vita",
+      "support": "Supporto 24/7",
+      "real_users": "100% Utenti reali",
+      "real_views": "100% Visualizzazioni reali",
+      "very_active": "Utenti molto attivi",
+      "improved_engagement": "Engagement migliorato",
+      "best_quality": "La migliore qualità sul mercato",
+      "payment_solution": "Pagamento in un'unica soluzione",
+      "payment_methods": "Apple Pay, Google Pay e carta di credito",
+      "italian_service": "Servizio 100% italiano",
+      "real_active_users": "Utenti reali e attivi",
+      "best_price": "Miglior prezzo garantito",
+      "italian_only": "100% dall'Italia 🇮🇹",
+      "maximum_quality": "Qualità massima",
+      "best_price_guaranteed": "Miglior prezzo garantito",
+      "guaranteed_italian_likes": "Like italiani garantiti",
+      "exclusively_from_us": "Esclusivamente da noi",
+      "real_active_views": "Visualizzazioni reali e attive",
+      "real_italian_views": "Visualizzazioni italiane reali",
+      "italian_only_flag": "100% dall'Italia 🇮🇹",
+      "real_active_likes": "Like reali e attivi",
+      "real_italian_likes": "Like italiani reali",
+      "split_across_posts": "Possono essere distribuiti su più post"
+    }
+  },
+  "faq_section": {
+    "tag": "FAQ",
+    "title": "Domande frequenti",
+    "description": "Abbiamo raccolto le risposte alle domande più frequenti per te.",
+    "questions": [
+      {
+        "question": "Avete bisogno della mia password dei social media?",
+        "answer": "Assolutamente NO! Non accederemo al tuo account, e non ti chiederemo mai la tua password."
+      },
+      {
+        "question": "Sono a rischio di essere bannato o penalizzato?",
+        "answer": "Assolutamente no. I nostri servizi sono della massima qualità e non c'è rischio di incorrere in ban o penalizzazioni sui tuoi account social."
+      },
+      {
+        "question": "Quando consegnerete il mio ordine?",
+        "answer": "Dopo la conferma del pagamento, il nostro team si metterà immediatamente al lavoro sul tuo account."
+      },
+      {
+        "question": "Cosa succede se qualcuno smette di seguirmi?",
+        "answer": "Non preoccuparti, con il nostro servizio hai una garanzia. Dato che si tratta di utenti reali e attivi, è possibile che qualcuno smetta di seguirti. In quel caso, assicureremo il reintegro del tuo account senza problemi."
+      },
+      {
+        "question": "Perché noi?",
+        "answer": "Semplicemente perché siamo il numero 1 in Italia! Gli unici a seguire il tuo account, a offrirti servizi di qualità e supporto 24/7."
+      }
+    ]
+  },
+  "testimony_section": {
+    "rating_text": "4,9 /5 su 376+ recensioni",
+    "main_heading": "Ottieni follower reali e attivi garantiti in pochi secondi!",
+    "description": "Solo la migliore qualità. 100% senza rischi e completamente anonimo. Consegna immediata.",
+    "cta_button": "Scegli un pacchetto"
+  },
+  "why_us": {
+    "tag": "Perché noi?",
+    "title_part1": "Siamo il",
+    "title_highlight": "migliore",
+    "title_part2": "negozio in Italia",
+    "description": "Fidato da oltre 300.000 utenti e con oltre 5 milioni di ordini, abbiamo ricevuto una valutazione di 4,9 su 5 dai nostri clienti.",
+    "features": {
+      "immediate_delivery": {
+        "title": "Consegna immediata",
+        "description": "Elaboriamo e attiviamo tutti gli ordini immediatamente dopo aver ricevuto il pagamento. Nessun tempo di attesa."
+      },
+      "lifetime_warranty": {
+        "title": "Garanzia a vita",
+        "description": "Offriamo una garanzia a vita su tutti i nostri servizi. Se c'è un problema, lo sostituiremo senza costi."
+      },
+      "real_active_users": {
+        "title": "Utenti reali e attivi",
+        "description": "Gli utenti reali e attivi ti garantiranno un'alta portata organica e maggiore popolarità."
+      },
+      "best_quality_italy": {
+        "title": "La migliore qualità in Italia",
+        "description": "Un servizio di promozione organica ottimizzato per migliorare il SEO del tuo account e dei tuoi post."
+      }
+    }
+  },
+  "about": {
+    "title": "Pagina Chi siamo"
+  },
+  "instagram": {
+    "title": "Pagina Instagram"
+  },
+  "tiktok": {
+    "title": "Pagina TikTok"
+  },
+  "banner": {
+    "special_offer": "Offerta speciale",
+    "discount": "5% DI SCONTO, CODICE: TOP5",
+    "hours": "ore",
+    "min": "min",
+    "sec": "sec"
+  },
+  "cart": {
+    "your_cart": "Il tuo carrello",
+    "empty": "Il tuo carrello è completamente vuoto...",
+    "choose": "Dovresti scegliere qualcosa di carino per il tuo profilo. 🤷",
+    "back_to_shop": "Torna al negozio"
+  },
+  "footer": {
+    "slogan": "Uno strumento online moderno per aumentare la popolarità dei tuoi social network.",
+    "all_services_working": "Tutti i servizi funzionanti",
+    "our_services": "I nostri servizi",
+    "useful_links": "Link utili",
+    "contact_us": "Contattaci",
+    "reviews": "Recensioni",
+    "terms": "Termini e condizioni",
+    "privacy": "Privacy",
+    "contacts": "Contatti",
+    "terms_and_conditions": "Termini e Condizioni",
+    "privacy_policy": "Informativa sulla Privacy",
+    "copyright": "© 2025 TopFollower - Tutti i diritti riservati."
+  },
+  "review_block": {
+    "customer_reviews_title": "Recensioni dei clienti",
+    "over_reviews_speak_for_themselves": "Oltre <highlight>{count}</highlight> recensioni parlano da sole",
+    "service_description": "Il <bold>servizio #1 in Italia</bold> per aumentare in sicurezza le interazioni reali sui social media.",
+    "show_more_button": "Mostra di più",
+    "reviews_remaining": "{count}+ recensioni rimanenti",
+    "review_texts": {
+      "alessio_bianchi": "Finalmente veri follower italiani!! 🇮🇹",
+      "giorgio_rossi_87": "Fantastico, finalmente veri follower dall'Italia!! E ci sono voluti solo pochi secondi. Grazie!",
+      "marco_ferrari_92": "È davvero veloce 👍 e di ottima qualità, sono davvero solo account italiani attivi.",
+      "alessandro_bianchi_77": "Servizio eccellente, ho ottenuto 10.000 follower in meno di 10 minuti, ero scettico all'inizio ma sono rimasto davvero sorpreso.",
+      "chiara_moretti": "Ho ricevuto i follower pochi minuti dopo l'acquisto.. grazie ragazzi!",
+      "luca_rizzo_90": "Ho finalmente trovato un sito affidabile per comprare follower Instagram di qualità a un prezzo DAVVERO BASSO!",
+      "filippo_conte": "Non ho nulla da ridire... tutto funziona perfettamente!",
+      "lorenzo_martini_82": "Ho appena comprato follower per €25 e sono arrivati in circa un minuto 👍"
+    },
+    "time_ago": {
+      "2_days_ago": "2 giorni fa",
+      "3_days_ago": "3 giorni fa",
+      "5_days_ago": "5 giorni fa",
+      "7_days_ago": "7 giorni fa",
+      "10_days_ago": "10 giorni fa",
+      "12_days_ago": "12 giorni fa",
+      "15_days_ago": "15 giorni fa"
+    },
+    "customer_reviews_badge": "Recensioni dei clienti"
   }
-} 
+}

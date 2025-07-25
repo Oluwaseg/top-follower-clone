@@ -1,8 +1,7 @@
 'use client';
-
 import { Check } from 'lucide-react';
-import { useEffect, useState } from 'react';
 import { useTranslations } from 'next-intl';
+import { useEffect, useState } from 'react';
 
 interface DeliveryItem {
   amount: string;
@@ -22,7 +21,6 @@ export function LiveDeliveryTicker({ deliveries }: LiveDeliveryTickerProps) {
     const interval = setInterval(() => {
       setCurrentIndex((prev) => (prev + 1) % deliveries.length);
     }, 3000);
-
     return () => clearInterval(interval);
   }, [deliveries.length]);
 
@@ -30,15 +28,19 @@ export function LiveDeliveryTicker({ deliveries }: LiveDeliveryTickerProps) {
 
   // Example: parse '5 minutes ago' to use translation keys
   function localizeTime(time: string) {
-    // Simple example: '5 minutes ago' => '5 ' + t('minutes') + ' ' + t('ago')
     const match = time.match(/(\d+)\s*(\w+)\s*(ago|min|sec)?/);
     if (!match) return time;
     const [, num, unit, ago] = match;
     let unitKey = unit;
+
+    // Map singular units to their plural translation keys if necessary
+    if (unit === 'minute') unitKey = 'minutes';
     if (unit === 'minutes') unitKey = 'minutes';
     if (unit === 'min') unitKey = 'min';
+    if (unit === 'second') unitKey = 'seconds';
     if (unit === 'seconds') unitKey = 'seconds';
     if (unit === 'sec') unitKey = 'sec';
+
     return `${num} ${t(unitKey)}${ago ? ' ' + t('ago') : ''}`;
   }
 
@@ -56,7 +58,9 @@ export function LiveDeliveryTicker({ deliveries }: LiveDeliveryTickerProps) {
           <div className='flex items-center justify-between w-full font-normal text-[13px] md:text-sm text-emerald-900'>
             <div className='text-nowrap'>
               <span className='font-semibold'>{currentDelivery.amount}</span>{' '}
-              <span className='deliver-text'>{t(currentDelivery.action.replace('live_delivery.', ''))}</span>
+              <span className='deliver-text'>
+                {t(currentDelivery.action.replace('live_delivery.', ''))}
+              </span>
             </div>
             <div className='ml-auto flex items-center space-x-1.5'>
               <div className='rounded-full w-[19px] h-[19px] p-[3px] bg-white shadow-md'>

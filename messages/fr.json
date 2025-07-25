@@ -31,7 +31,7 @@
     "facebook_post_likes": "J'aime la publication Facebook"
   },
   "hero": {
-    "main_heading": "Obtenez des abonnés réels et actifs <span class='text-orange-500'>garantis en quelques secondes !</span>",
+    "main_heading": "Obtenez des abonnés réels et actifs <highlight>garantis en quelques secondes !</highlight>",
     "subheading": "La meilleure qualité uniquement. 100% sans risque et totalement anonyme.",
     "features": {
       "immediate_delivery": "Livraison immédiate",
@@ -54,26 +54,126 @@
     "save": "Économisez",
     "free": "gratuit",
     "continue": "Continuer",
-    "delivery_in": "Livraison en :",
-    "lifetime_warranty": "Garantie à vie",
-    "support": "Support 24/7",
-    "real_users": "100% Utilisateurs réels",
-    "real_views": "100% Vues réelles",
-    "very_active": "Utilisateurs très actifs",
-    "improved_engagement": "Engagement amélioré",
-    "best_quality": "La meilleure qualité du marché",
-    "payment_solution": "Paiement en une seule solution",
-    "payment_methods": "Apple Pay, Google Pay et carte de crédit",
-    "italian_service": "Service 100% italien",
     "continue_btn": "Continuer",
     "savings": "Économisez",
     "package_free": "+{bonus} gratuit",
-    "real_active_users": "Utilisateurs réels et actifs",
-    "best_price": "Meilleur prix garanti",
-    "italian_followers": "Abonnés italiens",
-    "italian_only": "100% d'Italie 🇮🇹",
-    "followers": "abonnés",
-    "european_followers": "Abonnés européens"
+    "type": {
+      "followers": "abonnés",
+      "like": "j'aime",
+      "views": "vues",
+      "subscribers": "abonnés"
+    },
+    "badge": {
+      "instagram": "INSTAGRAM",
+      "tiktok": "TIKTOK",
+      "youtube": "YOUTUBE",
+      "facebook": "FACEBOOK"
+    },
+    "title": {
+      "instagram_followers": "Obtenez des abonnés réels et actifs <highlight>garantis en quelques secondes !</highlight>",
+      "instagram_likes": "J'aime Instagram (100% réels) 🇮🇹",
+      "instagram_views": "Vues Instagram - 100% réelles et actives 🇮🇹",
+      "tiktok_followers": "Abonnés TikTok - 100% réels et actifs 🇮🇹",
+      "tiktok_likes": "J'aime TikTok - 100% réels et actifs 🇮🇹",
+      "tiktok_views": "Vues TikTok - 100% réelles et actives 🇮🇹",
+      "youtube_subscribers": "Abonnés YouTube - 100% réels et actifs 🎵",
+      "youtube_views": "Vues YouTube - 100% réelles et actives 🎵",
+      "youtube_likes": "J'aime YouTube - 100% réels et actifs 🎵",
+      "facebook_followers": "Abonnés Facebook",
+      "facebook_post_likes": "J'aime la publication Facebook - 100% réels et actifs 🎵"
+    },
+    "variant": {
+      "european_followers": "Abonnés européens",
+      "italian_followers": "Abonnés italiens",
+      "european_likes": "J'aime européens",
+      "italian_likes": "J'aime italiens",
+      "european_views": "Vues européennes",
+      "italian_views": "Vues italiennes"
+    },
+    "features": {
+      "delivery_in": "Livraison en :",
+      "lifetime_warranty": "Garantie à vie",
+      "support": "Support 24/7",
+      "real_users": "100% Utilisateurs réels",
+      "real_views": "100% Vues réelles",
+      "very_active": "Utilisateurs très actifs",
+      "improved_engagement": "Engagement amélioré",
+      "best_quality": "La meilleure qualité du marché",
+      "payment_solution": "Paiement en une seule solution",
+      "payment_methods": "Apple Pay, Google Pay et carte de crédit",
+      "italian_service": "Service 100% italien",
+      "real_active_users": "Utilisateurs réels et actifs",
+      "best_price": "Meilleur prix garanti",
+      "italian_only": "100% d'Italie 🇮🇹",
+      "maximum_quality": "Qualité maximale",
+      "best_price_guaranteed": "Meilleur prix garanti",
+      "guaranteed_italian_likes": "J'aime italiens garantis",
+      "exclusively_from_us": "Exclusivement chez nous",
+      "real_active_views": "Vues réelles et actives",
+      "real_italian_views": "Vues italiennes réelles",
+      "italian_only_flag": "100% d'Italie 🇮🇹",
+      "real_active_likes": "J'aime réels et actifs",
+      "real_italian_likes": "J'aime italiens réels",
+      "split_across_posts": "Ils peuvent être répartis sur plusieurs publications"
+    }
+  },
+  "faq_section": {
+    "tag": "FAQ",
+    "title": "Questions fréquemment posées",
+    "description": "Nous avons rassemblé les réponses aux questions les plus fréquemment posées pour vous.",
+    "questions": [
+      {
+        "question": "Avez-vous besoin de mon mot de passe de compte de médias sociaux ?",
+        "answer": "Absolument NON ! Nous n'accéderons pas à votre compte, et nous ne vous demanderons jamais votre mot de passe."
+      },
+      {
+        "question": "Suis-je à risque d'être banni ou pénalisé ?",
+        "answer": "Absolument pas. Nos services sont de la plus haute qualité et il n'y a aucun risque d'encourir des interdictions ou des pénalités sur vos comptes sociaux."
+      },
+      {
+        "question": "Quand livrerez-vous ma commande ?",
+        "answer": "Après confirmation du paiement, notre équipe se mettra immédiatement au travail sur votre compte."
+      },
+      {
+        "question": "Que se passe-t-il si quelqu'un ne me suit plus ?",
+        "answer": "Ne vous inquiétez pas, avec notre service, vous avez une garantie. Puisqu'il s'agit d'utilisateurs réels et actifs, il est possible que quelqu'un cesse de vous suivre. Dans ce cas, nous assurerons la réintégration de votre compte sans problème."
+      },
+      {
+        "question": "Pourquoi nous ?",
+        "answer": "Simplement parce que nous sommes le numéro 1 en Italie ! Les seuls à suivre votre compte, à vous offrir des services de qualité et un support 24h/24 et 7j/7."
+      }
+    ]
+  },
+  "testimony_section": {
+    "rating_text": "4,9 /5 sur 376+ avis",
+    "main_heading": "Obtenez des abonnés réels et actifs garantis en quelques secondes !",
+    "description": "Seule la meilleure qualité. 100% sans risque et totalement anonyme. Livraison immédiate.",
+    "cta_button": "Choisissez un forfait"
+  },
+  "why_us": {
+    "tag": "Pourquoi nous ?",
+    "title_part1": "Nous sommes la",
+    "title_highlight": "meilleure",
+    "title_part2": "boutique en Italie",
+    "description": "Approuvé par plus de 300 000 utilisateurs et avec plus de 5 millions de commandes, nous avons reçu une note de 4,9 sur 5 de la part de nos clients.",
+    "features": {
+      "immediate_delivery": {
+        "title": "Livraison immédiate",
+        "description": "Nous traitons et activons toutes les commandes immédiatement après réception du paiement. Pas de temps d'attente."
+      },
+      "lifetime_warranty": {
+        "title": "Garantie à vie",
+        "description": "Nous offrons une garantie à vie sur tous nos services. En cas de problème, nous le remplacerons sans frais."
+      },
+      "real_active_users": {
+        "title": "Utilisateurs réels et actifs",
+        "description": "Des utilisateurs réels et actifs vous garantiront une portée organique élevée et une popularité accrue."
+      },
+      "best_quality_italy": {
+        "title": "La meilleure qualité en Italie",
+        "description": "Un service de promotion organique optimisé pour améliorer le référencement de votre compte et de vos publications."
+      }
+    }
   },
   "about": {
     "title": "Page À propos"
@@ -110,5 +210,32 @@
     "terms_and_conditions": "Conditions générales",
     "privacy_policy": "Politique de confidentialité",
     "copyright": "© 2025 TopFollower - Tous droits réservés."
+  },
+  "review_block": {
+    "customer_reviews_title": "Avis des clients",
+    "over_reviews_speak_for_themselves": "Plus de <highlight>{count}</highlight> avis parlent d'eux-mêmes",
+    "service_description": "Le <bold>#1 service en Italie</bold> pour augmenter les interactions réelles sur les réseaux sociaux en toute sécurité.",
+    "show_more_button": "Afficher plus",
+    "reviews_remaining": "{count}+ avis restants",
+    "review_texts": {
+      "alessio_bianchi": "Enfin de vrais abonnés italiens !! 🇮🇹",
+      "giorgio_rossi_87": "Fantastique, enfin de vrais abonnés d'Italie !! Et cela n'a pris que quelques secondes. Merci !",
+      "marco_ferrari_92": "C'est vraiment rapide 👍 et d'excellente qualité, ce ne sont vraiment que des comptes italiens actifs.",
+      "alessandro_bianchi_77": "Excellent service, j'ai obtenu 10 000 abonnés en moins de 10 minutes, j'étais sceptique au début mais j'ai été vraiment surpris.",
+      "chiara_moretti": "J'ai reçu les abonnés quelques minutes après l'achat.. merci les gars !",
+      "luca_rizzo_90": "J'ai enfin trouvé un site fiable pour acheter des abonnés Instagram de qualité à un prix VRAIMENT BAS !",
+      "filippo_conte": "Je n'ai rien à redire... tout fonctionne parfaitement !",
+      "lorenzo_martini_82": "Je viens d'acheter des abonnés pour 25 € et ils sont arrivés en une minute environ 👍"
+    },
+    "time_ago": {
+      "2_days_ago": "il y a 2 jours",
+      "3_days_ago": "il y a 3 jours",
+      "5_days_ago": "il y a 5 jours",
+      "7_days_ago": "il y a 7 jours",
+      "10_days_ago": "il y a 10 jours",
+      "12_days_ago": "il y a 12 jours",
+      "15_days_ago": "il y a 15 jours"
+    },
+    "customer_reviews_badge": "Avis des clients"
   }
-} 
+}

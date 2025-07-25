@@ -1,6 +1,6 @@
 {
   "navbar": {
-    "brand": "Senpai Site",
+    "brand": "TopFollower",
     "about": "About",
     "instagram": "Instagram",
     "tiktok": "TikTok",
@@ -18,24 +18,24 @@
   "services": {
     "instagram_followers": "Instagram Followers",
     "italian_instagram_followers": "Italian Instagram Followers 🇮🇹",
-    "like_instagram": "Like Instagram",
+    "like_instagram": "Instagram Likes",
     "instagram_views": "Instagram Views",
     "tiktok_followers": "TikTok Followers",
     "italian_tiktok_followers": "Italian TikTok Followers 🇮🇹",
-    "like_tiktok": "Like TikTok",
+    "like_tiktok": "TikTok Likes",
     "tiktok_views": "TikTok Views",
     "youtube_subscribers": "YouTube Subscribers",
     "youtube_views": "YouTube Views",
-    "like_youtube": "Like YouTube",
+    "like_youtube": "YouTube Likes",
     "facebook_followers": "Facebook Followers",
-    "facebook_post_likes": "FB - Like the Post"
+    "facebook_post_likes": "Facebook Post Likes"
   },
   "hero": {
-    "main_heading": "Get guaranteed real and active <span class='text-orange-500'>followers in seconds!</span>",
+    "main_heading": "Get guaranteed real and active <highlight>followers in seconds!</highlight>",
     "subheading": "Only the best quality. 100% risk-free and completely anonymous.",
     "features": {
       "immediate_delivery": "Immediate Delivery",
-      "satisfaction": "100% Satisfaction Guaranteed or Your Money Back",
+      "satisfaction": "100% Satisfaction Guaranteed or Money Back",
       "best_quality": "The best quality on the market",
       "payment_methods": "Apple Pay, Google Pay and credit card",
       "italian_service": "100% ITALIAN service"
@@ -50,30 +50,130 @@
     "sec": "sec"
   },
   "service": {
-    "amount": "Amount :",
+    "amount": "Amount:",
     "save": "Save",
     "free": "free",
     "continue": "Continue",
-    "delivery_in": "Delivery in:",
-    "lifetime_warranty": "Lifetime warranty",
-    "support": "24/7 support",
-    "real_users": "100% Real Users",
-    "real_views": "100% Real Views",
-    "very_active": "Very Active Users",
-    "improved_engagement": "Improved Engagement",
-    "best_quality": "The best quality on the market",
-    "payment_solution": "Payment in a single solution",
-    "payment_methods": "Apple Pay, Google Pay and credit card",
-    "italian_service": "100% Italian Service",
     "continue_btn": "Continue",
     "savings": "Save",
     "package_free": "+{bonus} free",
-    "real_active_users": "Real and Active Users",
-    "best_price": "Best Price Guaranteed",
-    "italian_followers": "Italian Followers",
-    "italian_only": "100% from Italy 🇮��",
-    "followers": "followers",
-    "european_followers": "European Followers"
+    "type": {
+      "followers": "followers",
+      "like": "likes",
+      "views": "views",
+      "subscribers": "subscribers"
+    },
+    "badge": {
+      "instagram": "INSTAGRAM",
+      "tiktok": "TIKTOK",
+      "youtube": "YOUTUBE",
+      "facebook": "FACEBOOK"
+    },
+    "title": {
+      "instagram_followers": "Get guaranteed real and active <highlight>followers in seconds!</highlight>",
+      "instagram_likes": "Instagram Likes (100% real) 🇮🇹",
+      "instagram_views": "Instagram Views - 100% real and active 🇮🇹",
+      "tiktok_followers": "TikTok Followers - 100% real and active 🇮🇹",
+      "tiktok_likes": "TikTok Likes - 100% real and active 🇮🇹",
+      "tiktok_views": "TikTok Views - 100% real and active 🇮🇹",
+      "youtube_subscribers": "YouTube Subscribers - 100% real and active 🎵",
+      "youtube_views": "YouTube Views - 100% real and active 🎵",
+      "youtube_likes": "YouTube Likes - 100% real and active 🎵",
+      "facebook_followers": "Facebook Followers",
+      "facebook_post_likes": "Facebook Post Likes - 100% real and active 🎵"
+    },
+    "variant": {
+      "european_followers": "European Followers",
+      "italian_followers": "Italian Followers",
+      "european_likes": "European Likes",
+      "italian_likes": "Italian Likes",
+      "european_views": "European Views",
+      "italian_views": "Italian Views"
+    },
+    "features": {
+      "delivery_in": "Delivery in:",
+      "lifetime_warranty": "Lifetime warranty",
+      "support": "24/7 Support",
+      "real_users": "100% Real Users",
+      "real_views": "100% Real Views",
+      "very_active": "Very Active Users",
+      "improved_engagement": "Improved Engagement",
+      "best_quality": "The best quality on the market",
+      "payment_solution": "Single payment solution",
+      "payment_methods": "Apple Pay, Google Pay and credit card",
+      "italian_service": "100% Italian service",
+      "real_active_users": "Real and active users",
+      "best_price": "Best price guaranteed",
+      "italian_only": "100% from Italy 🇮🇹",
+      "maximum_quality": "Maximum quality",
+      "best_price_guaranteed": "Best price guaranteed",
+      "guaranteed_italian_likes": "Guaranteed Italian likes",
+      "exclusively_from_us": "Exclusively from us",
+      "real_active_views": "Real and active views",
+      "real_italian_views": "Real Italian views",
+      "italian_only_flag": "100% from Italy 🇮🇹",
+      "real_active_likes": "Real and active likes",
+      "real_italian_likes": "Real Italian likes",
+      "split_across_posts": "They can be split across multiple posts"
+    }
+  },
+  "faq_section": {
+    "tag": "FAQ",
+    "title": "Frequently Asked Questions",
+    "description": "We've collected answers to the most frequently asked questions for you.",
+    "questions": [
+      {
+        "question": "Do you need my social media account password?",
+        "answer": "Absolutely NO! We will not access your account, and we will never ask for your password."
+      },
+      {
+        "question": "Am I at risk of being banned or penalized?",
+        "answer": "Absolutely not. Our services are of the highest quality and there is no risk of incurring bans or penalties on your social accounts."
+      },
+      {
+        "question": "When will you deliver my order?",
+        "answer": "After payment confirmation, our team will immediately get to work on your account."
+      },
+      {
+        "question": "What happens if someone unfollows me?",
+        "answer": "Don't worry, with our service you have a guarantee. Since these are real and active users, it's possible that someone will stop following you. In that case, we will ensure the reintegration of your account without problems."
+      },
+      {
+        "question": "Why us?",
+        "answer": "Simply because we are number 1 in Italy! The only ones to follow your account, to offer you quality services and 24/7 support."
+      }
+    ]
+  },
+  "testimony_section": {
+    "rating_text": "4.9 /5 out of 376+ reviews",
+    "main_heading": "Get guaranteed real and active followers in seconds!",
+    "description": "Only the best quality. 100% risk-free and completely anonymous. Immediate delivery.",
+    "cta_button": "Choose a package"
+  },
+  "why_us": {
+    "tag": "Why us?",
+    "title_part1": "We are the",
+    "title_highlight": "best",
+    "title_part2": "shop in Italy",
+    "description": "Trusted by over 300,000 users and with over 5 million orders, we have received a 4.9 out of 5 rating from our customers.",
+    "features": {
+      "immediate_delivery": {
+        "title": "Immediate delivery",
+        "description": "We process and activate all orders immediately after receiving payment. No waiting times."
+      },
+      "lifetime_warranty": {
+        "title": "Lifetime warranty",
+        "description": "We offer a lifetime guarantee on all our services. If there's a problem, we'll replace it at no cost."
+      },
+      "real_active_users": {
+        "title": "Real and active users",
+        "description": "Real and active users will guarantee you high organic reach and increased popularity."
+      },
+      "best_quality_italy": {
+        "title": "The best quality in Italy",
+        "description": "An organic promotion service optimized to improve the SEO of your account and posts."
+      }
+    }
   },
   "about": {
     "title": "About Page"
@@ -86,7 +186,7 @@
   },
   "banner": {
     "special_offer": "Special offer",
-    "discount": "5% OFF, DISCOUNT CODE: TOP5",
+    "discount": "5% OFF, CODE: TOP5",
     "hours": "hours",
     "min": "min",
     "sec": "sec"
@@ -110,5 +210,32 @@
     "terms_and_conditions": "Terms and Conditions",
     "privacy_policy": "Privacy Policy",
     "copyright": "© 2025 TopFollower - All rights reserved."
+  },
+  "review_block": {
+    "customer_reviews_title": "Customer Reviews",
+    "over_reviews_speak_for_themselves": "Over <highlight>{count}</highlight> reviews speak for themselves",
+    "service_description": "The <bold>#1 service in Italy</bold> to safely increase real social media interactions.",
+    "show_more_button": "Show more",
+    "reviews_remaining": "{count}+ reviews remaining",
+    "review_texts": {
+      "alessio_bianchi": "Finally real Italian followers!! 🇮🇹",
+      "giorgio_rossi_87": "Fantastic, finally real followers from Italy!! And it only took a few seconds. Thank you!",
+      "marco_ferrari_92": "It's really fast 👍 and excellent quality, they really are only active Italian accounts.",
+      "alessandro_bianchi_77": "Excellent service, I got 10,000 followers in less than 10 minutes, I was skeptical at first but I was really surprised.",
+      "chiara_moretti": "I received the followers a few minutes after purchase.. thanks guys!",
+      "luca_rizzo_90": "I finally found a reliable site to buy quality Instagram followers at a REALLY LOW price!",
+      "filippo_conte": "I have nothing to complain about... everything works perfectly!",
+      "lorenzo_martini_82": "I just bought followers for €25 and they arrived in about a minute 👍"
+    },
+    "time_ago": {
+      "2_days_ago": "2 days ago",
+      "3_days_ago": "3 days ago",
+      "5_days_ago": "5 days ago",
+      "7_days_ago": "7 days ago",
+      "10_days_ago": "10 days ago",
+      "12_days_ago": "12 days ago",
+      "15_days_ago": "15 days ago"
+    },
+    "customer_reviews_badge": "Customer Reviews"
   }
-} 
+}

@@ -54,10 +54,10 @@ export function NavBar() {
               <Link href='/'>
                 <Image
                   src='/logo.webp'
-                  className='w-[160px] h-auto'
                   alt='Logo'
                   width={160}
                   height={40}
+                  style={{ height: 'auto' }}
                 />
               </Link>
             </div>

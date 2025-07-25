@@ -1,9 +1,8 @@
 'use client';
-
 import { ChevronRight, Heart, Play, Users } from 'lucide-react';
+import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import { useState } from 'react';
-import { useTranslations } from 'next-intl';
 
 const platforms = [
   {
@@ -60,21 +59,21 @@ const platforms = [
   },
 ];
 
-const features = [
-  { emoji: '⚡️', text: 'Immediate Delivery' },
-  { emoji: '🔒', text: '100% Satisfaction Guaranteed or Your Money Back' },
-  { emoji: '🥇', text: 'The best quality on the market' },
-  { emoji: '💳', text: 'Apple Pay, Google Pay and credit card' },
-  { emoji: '🇮🇹', text: '100% ITALIAN service' },
-];
-
 const featureKeys = [
   'immediate_delivery',
   'satisfaction',
   'best_quality',
   'payment_methods',
-  'italian_service'
+  'italian_service',
 ];
+
+const featureEmojis: { [key: string]: string } = {
+  immediate_delivery: '⚡️',
+  satisfaction: '🔒',
+  best_quality: '🥇',
+  payment_methods: '💳',
+  italian_service: '🇮🇹',
+};
 
 export function Hero() {
   const [activePlatform, setActivePlatform] = useState('instagram');
@@ -98,7 +97,6 @@ export function Hero() {
           }}
         />
       </div>
-
       <div className='container relative z-10 max-w-4xl mx-auto px-4'>
         {/* Overlay pattern */}
         <Image
@@ -108,11 +106,14 @@ export function Hero() {
           className='absolute inset-0 z-[-9] object-cover object-center h-[500px] my-auto mx-auto opacity-30'
           src='/overlay.svg'
         />
-
         {/* Main heading */}
         <div className='mx-auto max-w-4xl sm:mt-6'>
           <h1 className='text-3xl sm:text-[45px] font-extrabold text-center text-gray-900/95 leading-[38px] sm:leading-[53px]'>
-            <span dangerouslySetInnerHTML={{ __html: t('main_heading') }} />
+            {t.rich('main_heading', {
+              highlight: (chunks) => (
+                <span className='text-orange-500'>{chunks}</span>
+              ),
+            })}
           </h1>
           <div className='mx-auto max-w-2xl'>
             <p className='mt-4 sm:mt-6 text-base sm:text-lg font-medium sm:leading-[24px] leading-snug text-gray-600 text-center'>
@@ -120,7 +121,6 @@ export function Hero() {
             </p>
           </div>
         </div>
-
         {/* Platform tabs */}
         <div className='sm:w-fit mx-2 sm:mx-auto mt-6 sm:mt-6 grid grid-cols-4 sm:flex gap-2'>
           {platforms.map((platform) => (
@@ -151,7 +151,6 @@ export function Hero() {
             </div>
           ))}
         </div>
-
         {/* Services for active platform */}
         <div className='p-2 mt-2'>
           <div className='rounded-2xl bg-gradient-to-b p-3 mx-auto max-w-xl from-orange-100/70 to-orange-100/20'>
@@ -181,21 +180,19 @@ export function Hero() {
             </div>
           </div>
         </div>
-
         {/* Features card */}
         <div className='w-full md:w-[576px] mx-auto mt-3'>
           <div className='rounded-[20px] bg-white shadow-lg px-6 sm:px-8 py-6 font-medium'>
             <div className='space-y-1.5 mt-1 font-medium text-[15px]'>
               {featureKeys.map((key, index) => (
                 <div key={index} className='flex items-center space-x-1'>
-                  {/* You may want to map emoji by key if needed */}
-                  <div className='mt-0'>{tf(key)}</div>
+                  <div className='mt-0'>{featureEmojis[key]}</div>
+                  <div>{tf(key)}</div>
                 </div>
               ))}
             </div>
           </div>
         </div>
-
         {/* Trust indicators */}
         <div className='flex justify-center mt-4'>
           <div className='flex flex-col justify-center items-center mt-6'>
